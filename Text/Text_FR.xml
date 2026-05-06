@@ -7,11 +7,27 @@
             <Text>Les Cornus</Text>
         </Row>
         <Row Tag="LOC_CIVILIZATION_HORNED_ONE_DESCRIPTION" Language="fr_FR">
-            <Text>Un peuple hédoniste et communautaire vivant en Herds soudés, guidés par les rites anciens et la sagesse de leurs Mères-Cornes.</Text>
+            <Text>Un peuple hédoniste et communautaire vivant en Herds soudés, guidés par leur Leader Mère-Corne.</Text>
         </Row>
         <Row Tag="LOC_CIVILIZATION_HORNED_ONE_ADJECTIVE" Language="fr_FR">
             <Text>Cornu</Text>
         </Row>
+
+        LOC_CIVILIZATION_HORNED_ONE_NAME: Les Cornus
+        LOC_CIVILIZATION_HORNED_ONE_DESCRIPTION: Une civilisation d’êtres organiques, féconds et puissants.
+        LOC_CIVILIZATION_HORNED_ONE_ADJECTIVE: Cornus
+
+        LOC_CITIZEN_HORNED_ONE_1: Couveur
+        LOC_CITIZEN_HORNED_ONE_2: Gardien du Nid
+        LOC_CITIZEN_HORNED_ONE_3: cornu
+        LOC_CITIZEN_HORNED_ONE_4: Voix de la Herd
+
+        LOC_CITY_HORNED_ONE_1: Domicile‑Couvée
+        LOC_CITY_HORNED_ONE_2: Aiguille‑Nid
+        LOC_CITY_HORNED_ONE_3: Port‑Cornut
+        LOC_CITY_HORNED_ONE_4: Spirale Fertile
+        LOC_CITY_HORNED_ONE_5: Source de la Mère
+
 
         <!-- LEADER -->
         <Row Tag="LOC_LEADER_HORN_MOTHER_NAME" Language="fr_FR">
@@ -90,20 +106,26 @@
         LOC_ABILITY_HORN_MOTHER_GROWTH_DESCRIPTION: +20% de Croissance dans la ville où se trouve la Mère-Corne. Fournit +1 Logement et +1 Agrément.
         LOC_UNIT_HORN_MOTHER_LIMIT_DESCRIPTION: Votre Herd peut soutenir davantage de Mères-Cornes à mesure que vos traditions culturelles évoluent.
 
-        LOC_BUILDING_HERD_TREE_NAME: Arbre du Herd
-        LOC_BUILDING_HERD_TREE_DESCRIPTION: Un arbre sacré entretenu par le Herd. Fournit +4 Logements et +1 Culture pour chaque tranche de 3 Population dans la ville. Un seul Arbre du Herd peut être construit par ville.
+        LOC_BUILDING_HERD_TREE_NAME: Arbre de troupeau
+        LOC_BUILDING_HERD_TREE_DESCRIPTION: Structure culturelle unique qui grandit avec la population. Fournit +2 Culture, +1 Logement, 2 emplacements d’Écriture, et +1 Culture par 3 Population. Gagne +1 Culture pour chaque Aire de Nidification adjacente.
+
 
         LOC_AGENDA_HORN_MOTHER_NAME: Mère des Multitudes
-        LOC_AGENDA_HORN_MOTHER_DESCRIPTION: Respecte les civilisations qui prennent soin de leur population et font croître leurs villes. Déteste celles qui laissent leur peuple stagner ou souffrir.
+        LOC_AGENDA_HORN_MOTHER_DESCRIPTION: Respecte les civilisations à forte croissance et désapprouve celles qui stagnent.
 
-        LOC_DIPLO_KUDO_LEADER_HORN_MOTHER_GROWTH: Ton Herd grandit fort et sain. Voilà un bon egg.
-        LOC_DIPLO_MODIFIER_HORN_MOTHER_LIKES_GROWTH: Apprécie votre population en croissance.
+        LOC_DIPLO_MODIFIER_HORN_MOTHER_LIKES_GROWTH: Apprécie votre croissance démographique.
+        LOC_DIPLO_MODIFIER_HORN_MOTHER_HATES_STAGNATION: Désapprouve votre stagnation démographique.
 
-        LOC_DIPLO_WARNING_LEADER_HORN_MOTHER_STAGNATION: Ton peuple ne prospère pas, no-horn. Une ville sans croissance est un Herd mourant.
-        LOC_DIPLO_MODIFIER_HORN_MOTHER_HATES_STAGNATION: Désapprouve votre population stagnante ou en déclin.
+        LOC_DIPLO_KUDO_LEADER_HORN_MOTHER_GROWTH: Votre peuple se multiplie avec une vigueur admirable.
+        LOC_DIPLO_WARNING_LEADER_HORN_MOTHER_STAGNATION: Vos villes semblent… stériles. Cela m’inquiète.
+
 
         LOC_IMPROVEMENT_NESTING_GROUND_NAME: Aire de Nidification
-        LOC_IMPROVEMENT_NESTING_GROUND_DESCRIPTION: Aire sacrée où le Herd pond et veille sur ses œufs. Fournit +2 Logements et +1 Nourriture. Donne +1 Nourriture si adjacent à une Mère-Corne, et +1 Culture si adjacent à un Arbre du Herd.
+        LOC_IMPROVEMENT_NESTING_GROUND_DESCRIPTION: Aire sacrée où le Herd pond et veille sur ses œufs. Fournit +2 Logements et +1 Nourriture. Donne +1 Nourriture si adjacent à une Mère-Corne, et +1 Culture si adjacent à un Arbre de troupeau.
+
+        LOC_TRAIT_LEADER_GOOD_EGG_NAME: Bon Œuf
+        LOC_TRAIT_LEADER_GOOD_EGG_DESCRIPTION: +15% de Croissance dans toutes les villes. +20% de Production pour les unités terrestres avant l’Ère Industrielle.
+
 
 
         <!-- ===================== -->

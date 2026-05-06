@@ -6,15 +6,57 @@
     <!-- ========================================================= -->
 
     <Traits>
-        <Row TraitType="TRAIT_CIVILIZATION_HORNED_ONE"
-             Name="LOC_TRAIT_CIVILIZATION_HORNED_ONE_NAME"
-             Description="LOC_TRAIT_CIVILIZATION_HORNED_ONE_DESCRIPTION"/>
+        <Row TraitType="TRAIT_CIVILIZATION_HORNED_ONE" Name="LOC_TRAIT_CIVILIZATION_HORNED_ONE_NAME" Description="LOC_TRAIT_CIVILIZATION_HORNED_ONE_DESCRIPTION"/>
     </Traits>
 
     <CivilizationTraits>
-        <Row CivilizationType="CIVILIZATION_HORNED_ONE"
-             TraitType="TRAIT_CIVILIZATION_HORNED_ONE"/>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" TraitType="TRAIT_CIVILIZATION_HORNED_ONE"/>
     </CivilizationTraits>
+
+
+    <!-- Bonus : +10% Growth dans toutes les villes -->
+    <TraitModifiers>
+        <Row TraitType="TRAIT_CIVILIZATION_HORNED_ONE" ModifierId="HORNED_ONE_GROWTH_BONUS"/>
+    </TraitModifiers>
+
+    <Modifiers>
+        <Row ModifierId="HORNED_ONE_GROWTH_BONUS" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_GROWTH"/>
+    </Modifiers>
+
+    <ModifierArguments>
+        <Row ModifierId="HORNED_ONE_GROWTH_BONUS" Name="Amount" Value="10"/>
+    </ModifierArguments>
+
+
+    <!-- Bonus : +1 Housing par Nesting Ground -->
+    <TraitModifiers>
+        <Row TraitType="TRAIT_CIVILIZATION_HORNED_ONE" ModifierId="HORNED_ONE_NESTING_GROUND_HOUSING"/>
+    </TraitModifiers>
+
+    <Modifiers>
+        <Row ModifierId="HORNED_ONE_NESTING_GROUND_HOUSING" ModifierType="MODIFIER_PLAYER_ADJUST_IMPROVEMENT_HOUSING"/>
+    </Modifiers>
+
+    <ModifierArguments>
+        <Row ModifierId="HORNED_ONE_NESTING_GROUND_HOUSING" Name="ImprovementType" Value="IMPROVEMENT_NESTING_GROUND"/>
+        <Row ModifierId="HORNED_ONE_NESTING_GROUND_HOUSING" Name="Amount" Value="1"/>
+    </ModifierArguments>
+
+
+    <!-- Bonus : +1 Culture par Herd Tree -->
+    <TraitModifiers>
+        <Row TraitType="TRAIT_CIVILIZATION_HORNED_ONE" ModifierId="HORNED_ONE_HERD_TREE_CULTURE"/>
+    </TraitModifiers>
+
+    <Modifiers>
+        <Row ModifierId="HORNED_ONE_HERD_TREE_CULTURE" ModifierType="MODIFIER_PLAYER_ADJUST_BUILDING_YIELD_CHANGE"/>
+    </Modifiers>
+
+    <ModifierArguments>
+        <Row ModifierId="HORNED_ONE_HERD_TREE_CULTURE" Name="BuildingType" Value="BUILDING_HERD_TREE"/>
+        <Row ModifierId="HORNED_ONE_HERD_TREE_CULTURE" Name="YieldType" Value="YIELD_CULTURE"/>
+        <Row ModifierId="HORNED_ONE_HERD_TREE_CULTURE" Name="Amount" Value="1"/>
+    </ModifierArguments>
 
 
 
@@ -23,14 +65,14 @@
     <!-- ========================================================= -->
 
     <Traits>
-        <Row TraitType="TRAIT_LEADER_HORN_MOTHER"
-             Name="LOC_TRAIT_LEADER_HORN_MOTHER_NAME"
-             Description="LOC_TRAIT_LEADER_HORN_MOTHER_DESCRIPTION"/>
+        <Row TraitType="TRAIT_LEADER_GOOD_EGG"
+             Name="LOC_TRAIT_LEADER_GOOD_EGG_NAME"
+             Description="LOC_TRAIT_LEADER_GOOD_EGG_DESCRIPTION"/>
     </Traits>
 
     <LeaderTraits>
         <Row LeaderType="LEADER_HORN_MOTHER"
-             TraitType="TRAIT_LEADER_HORN_MOTHER"/>
+             TraitType="TRAIT_LEADER_GOOD_EGG"/>
     </LeaderTraits>
 
 
@@ -40,7 +82,7 @@
     <!-- ========================================================= -->
 
     <TraitModifiers>
-        <Row TraitType="TRAIT_LEADER_HORN_MOTHER"
+        <Row TraitType="TRAIT_LEADER_GOOD_EGG"
              ModifierId="GOOD_EGG_GROWTH_BONUS"/>
     </TraitModifiers>
 
@@ -60,7 +102,7 @@
     <!-- ========================================================= -->
 
     <TraitModifiers>
-        <Row TraitType="TRAIT_LEADER_HORN_MOTHER"
+        <Row TraitType="TRAIT_LEADER_GOOD_EGG"
              ModifierId="GOOD_EGG_UNIT_PRODUCTION"/>
     </TraitModifiers>
 
@@ -74,5 +116,6 @@
         <Row ModifierId="GOOD_EGG_UNIT_PRODUCTION" Name="EraPrereq" Value="ERA_INDUSTRIAL"/> <!-- Exclut Industrial et après -->
         <Row ModifierId="GOOD_EGG_UNIT_PRODUCTION" Name="Amount" Value="20"/> <!-- +20% Production -->
     </ModifierArguments>
+
 
 </GameInfo>

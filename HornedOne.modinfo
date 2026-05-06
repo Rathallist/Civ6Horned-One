@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Mod id="b1a4c1e0-0001-4c00-aaaa-hornedone000001" version="1">
+
     <Properties>
         <Name>The Horned One</Name>
         <Description>Adds a new Civilization led by Horn Mother.</Description>
@@ -9,40 +10,80 @@
         <CompatibleVersions>2.0</CompatibleVersions>
     </Properties>
 
+
+    <!-- ========================================================= -->
+    <!--  DÉPENDANCES                                               -->
+    <!-- ========================================================= -->
+
     <Dependencies>
-        <Mod id="253b8670-0000-4d00-8888-basegame000000" title="Base Game" />
+        <!-- Base Game -->
+        <Mod id="253b8670-0000-4d00-8888-basegame000000" title="Base Game"/>
+
+        <!-- Gathering Storm (XP2) -->
+        <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm"/>
     </Dependencies>
 
+
+    <!-- ========================================================= -->
+    <!--  ACTIONS EN JEU                                            -->
+    <!-- ========================================================= -->
+
     <InGameActions>
+
+        <!-- GAMEPLAY -->
         <UpdateDatabase id="Gameplay">
             <File>Gameplay/HornedOne_Civilization.xml</File>
             <File>Gameplay/HornedOne_Leader.xml</File>
             <File>Gameplay/HornedOne_Traits.xml</File>
             <File>Gameplay/HornedOne_Units.xml</File>
+            <File>Gameplay/HornedOne_Buildings.xml</File>
+            <File>Gameplay/HornedOne_Improvements.xml</File>
+            <File>Gameplay/HornedOne_DisableMechanizedUnits.xml</File>
         </UpdateDatabase>
 
+        <!-- TEXTES -->
         <UpdateText id="Text">
             <File>Text/Text_EN.xml</File>
             <File>Text/Text_FR.xml</File>
         </UpdateText>
 
+        <!-- ART -->
         <UpdateArt id="Art">
             <File>Art/IconDefinitions.xml</File>
+            <File>Art/IconAtlas.xml</File>
         </UpdateArt>
+
     </InGameActions>
 
+
+    <!-- ========================================================= -->
+    <!--  LISTE DES FICHIERS                                        -->
+    <!-- ========================================================= -->
+
     <Files>
+
+        <!-- Gameplay -->
         <File>Gameplay/HornedOne_Civilization.xml</File>
         <File>Gameplay/HornedOne_Leader.xml</File>
         <File>Gameplay/HornedOne_Traits.xml</File>
         <File>Gameplay/HornedOne_Units.xml</File>
+        <File>Gameplay/HornedOne_Buildings.xml</File>
+        <File>Gameplay/HornedOne_Improvements.xml</File>
+        <File>Gameplay/HornedOne_DisableMechanizedUnits.xml</File>
 
+        <!-- Text -->
         <File>Text/Text_EN.xml</File>
         <File>Text/Text_FR.xml</File>
 
+        <!-- Art -->
         <File>Art/IconDefinitions.xml</File>
+        <File>Art/IconAtlas.xml</File>
         <File>Art/Icons/CivIcon.dds</File>
         <File>Art/Icons/LeaderIcon.dds</File>
         <File>Art/Icons/UnitIcon.dds</File>
+        <File>Art/Icons/BuildingIcon.dds</File>
+        <File>Art/Icons/ImprovementIcon.dds</File>
+
     </Files>
+
 </Mod>

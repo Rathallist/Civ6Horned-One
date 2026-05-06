@@ -1,25 +1,148 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameInfo>
 
-    <!-- Déclaration de la civilisation -->
+    <!-- ========================================================= -->
+    <!--  CIVILISATION : THE HORNED ONE                            -->
+    <!-- ========================================================= -->
+
     <Civilizations>
         <Row CivilizationType="CIVILIZATION_HORNED_ONE"
              Name="LOC_CIVILIZATION_HORNED_ONE_NAME"
              Description="LOC_CIVILIZATION_HORNED_ONE_DESCRIPTION"
              Adjective="LOC_CIVILIZATION_HORNED_ONE_ADJECTIVE"
-             StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV"/>
+             StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV"
+             RandomCityNameDepth="3"/>
     </Civilizations>
 
-    <!-- Couleurs de la civilisation -->
+
+    <!-- ========================================================= -->
+    <!--  COULEURS                                                 -->
+    <!-- ========================================================= -->
+
     <CivilizationColors>
         <Row CivilizationType="CIVILIZATION_HORNED_ONE"
              PrimaryColor="COLOR_HORNED_ONE_PRIMARY"
              SecondaryColor="COLOR_HORNED_ONE_SECONDARY"/>
     </CivilizationColors>
 
-    <!-- Icônes -->
+
+    <!-- ========================================================= -->
+    <!--  ICÔNES                                                   -->
+    <!-- ========================================================= -->
+
     <IconDefinitions>
         <Row Name="ICON_CIVILIZATION_HORNED_ONE" Atlas="ICON_ATLAS_HORNED_ONE" Index="0"/>
     </IconDefinitions>
+
+
+    <!-- ========================================================= -->
+    <!--  TRAIT DE CIVILISATION                                    -->
+    <!-- ========================================================= -->
+
+    <CivilizationTraits>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE"
+             TraitType="TRAIT_CIVILIZATION_HORNED_ONE"/>
+    </CivilizationTraits>
+
+
+    <!-- ========================================================= -->
+    <!--  UNITÉS UNIQUES                                           -->
+    <!-- ========================================================= -->
+
+    <CivilizationUnits>
+        <!-- Ligne de mêlée Oni -->
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitType="UNIT_ONI_MELEE_01"/>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitType="UNIT_ONI_MELEE_02"/>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitType="UNIT_ONI_MELEE_03"/>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitType="UNIT_ONI_MELEE_04"/>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitType="UNIT_ONI_MELEE_05"/>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitType="UNIT_ONI_MELEE_06"/>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitType="UNIT_ONI_MELEE_07"/>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitType="UNIT_ONI_MELEE_08"/>
+
+        <!-- Ligne à distance Oni -->
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitType="UNIT_ONI_RANGED_01"/>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitType="UNIT_ONI_RANGED_02"/>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitType="UNIT_ONI_RANGED_03"/>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitType="UNIT_ONI_RANGED_04"/>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitType="UNIT_ONI_RANGED_05"/>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitType="UNIT_ONI_RANGED_06"/>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitType="UNIT_ONI_RANGED_07"/>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitType="UNIT_ONI_RANGED_08"/>
+
+        <!-- Ligne lourde Oni -->
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitType="UNIT_ONI_HEAVY_01"/>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitType="UNIT_ONI_HEAVY_02"/>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitType="UNIT_ONI_HEAVY_03"/>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitType="UNIT_ONI_HEAVY_04"/>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitType="UNIT_ONI_HEAVY_05"/>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitType="UNIT_ONI_HEAVY_06"/>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitType="UNIT_ONI_HEAVY_07"/>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitType="UNIT_ONI_HEAVY_08"/>
+    </CivilizationUnits>
+
+
+    <!-- ========================================================= -->
+    <!--  BÂTIMENT UNIQUE                                           -->
+    <!-- ========================================================= -->
+
+    <CivilizationBuildings>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE"
+             BuildingType="BUILDING_HERD_TREE"/>
+    </CivilizationBuildings>
+
+
+    <!-- ========================================================= -->
+    <!--  AMÉLIORATION UNIQUE                                      -->
+    <!-- ========================================================= -->
+
+    <CivilizationImprovements>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE"
+             ImprovementType="IMPROVEMENT_NESTING_GROUND"/>
+    </CivilizationImprovements>
+
+
+    <!-- ========================================================= -->
+    <!--  NOMS DE CITOYENS                                         -->
+    <!-- ========================================================= -->
+
+    <CivilizationCitizenNames>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" CitizenName="LOC_CITIZEN_HORNED_ONE_1"/>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" CitizenName="LOC_CITIZEN_HORNED_ONE_2"/>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" CitizenName="LOC_CITIZEN_HORNED_ONE_3"/>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" CitizenName="LOC_CITIZEN_HORNED_ONE_4"/>
+    </CivilizationCitizenNames>
+
+
+    <!-- ========================================================= -->
+    <!--  NOMS DE VILLES                                           -->
+    <!-- ========================================================= -->
+
+    <CityNames>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" CityName="LOC_CITY_HORNED_ONE_1"/>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" CityName="LOC_CITY_HORNED_ONE_2"/>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" CityName="LOC_CITY_HORNED_ONE_3"/>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" CityName="LOC_CITY_HORNED_ONE_4"/>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" CityName="LOC_CITY_HORNED_ONE_5"/>
+    </CityNames>
+
+
+    <!-- ========================================================= -->
+    <!--  STARTING BIASES                                          -->
+    <!-- ========================================================= -->
+
+    <StartBiasTerrains>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" TerrainType="TERRAIN_GRASS" Tier="1"/>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" TerrainType="TERRAIN_PLAINS" Tier="2"/>
+    </StartBiasTerrains>
+
+
+    <!-- ========================================================= -->
+    <!--  AUDIO (OPTIONNEL MAIS PROPRE)                            -->
+    <!-- ========================================================= -->
+
+    <CivilizationAudio>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE" AudioCultureType="AUDIO_CULTURE_EAST_ASIA"/>
+    </CivilizationAudio>
 
 </GameInfo>

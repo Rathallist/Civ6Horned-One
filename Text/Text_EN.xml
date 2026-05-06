@@ -7,11 +7,22 @@
             <Text>The Horned One</Text>
         </Row>
         <Row Tag="LOC_CIVILIZATION_HORNED_ONE_DESCRIPTION" Language="en_US">
-            <Text>A communal and hedonistic people who live in tightly bonded Herds, guided by ancient rituals and the wisdom of their Horn Mothers.</Text>
+            <Text>A communal and hedonistic people who live in tightly bonded Herds, guided by their Leader Horn Mother.</Text>
         </Row>
         <Row Tag="LOC_CIVILIZATION_HORNED_ONE_ADJECTIVE" Language="en_US">
             <Text>Horned</Text>
         </Row>
+        
+        LOC_CITIZEN_HORNED_ONE_1: Broodling
+        LOC_CITIZEN_HORNED_ONE_2: Nestkeeper
+        LOC_CITIZEN_HORNED_ONE_3: Horned one
+        LOC_CITIZEN_HORNED_ONE_4: Herdspeaker
+
+        LOC_CITY_HORNED_ONE_1: Broodhome
+        LOC_CITY_HORNED_ONE_2: Nestspire
+        LOC_CITY_HORNED_ONE_3: Hornreach
+        LOC_CITY_HORNED_ONE_4: Fertile Coil
+        LOC_CITY_HORNED_ONE_5: Mother’s Rise
 
         <!-- LEADER -->
         <Row Tag="LOC_LEADER_HORN_MOTHER_NAME" Language="en_US">
@@ -88,19 +99,25 @@
         LOC_UNIT_HORN_MOTHER_LIMIT_DESCRIPTION: Your Herd can support more Horn Mothers as your cultural traditions evolve.
 
         LOC_BUILDING_HERD_TREE_NAME: Herd Tree
-        LOC_BUILDING_HERD_TREE_DESCRIPTION: A sacred tree tended by the Herd. Provides +4 Housing and +1 Culture for every 3 Population in the city. Only one Herd Tree may be built per city.
+        LOC_BUILDING_HERD_TREE_DESCRIPTION: A unique cultural structure that grows with the population. Provides +2 Culture, +1 Housing, 2 Great Writing slots, and +1 Culture per 3 Population. Gains +1 Culture for each adjacent Nesting Ground.
+
 
         LOC_AGENDA_HORN_MOTHER_NAME: Mother of Many
-        LOC_AGENDA_HORN_MOTHER_DESCRIPTION: Respects civilizations that nurture their people and grow their cities. Dislikes those who let their population stagnate or suffer.
+        LOC_AGENDA_HORN_MOTHER_DESCRIPTION: Respects civilizations with strong population growth and disapproves of stagnant ones.
 
-        LOC_DIPLO_KUDO_LEADER_HORN_MOTHER_GROWTH: Your Herd grows strong and healthy. A good egg indeed.
         LOC_DIPLO_MODIFIER_HORN_MOTHER_LIKES_GROWTH: Appreciates your growing population.
+        LOC_DIPLO_MODIFIER_HORN_MOTHER_HATES_STAGNATION: Disapproves of your stagnant population.
 
-        LOC_DIPLO_WARNING_LEADER_HORN_MOTHER_STAGNATION: Your people do not thrive, no-horn. A city without growth is a dying Herd.
-        LOC_DIPLO_MODIFIER_HORN_MOTHER_HATES_STAGNATION: Disapproves of your stagnant or declining population.
+        LOC_DIPLO_KUDO_LEADER_HORN_MOTHER_GROWTH: Your people multiply with admirable vigor.
+        LOC_DIPLO_WARNING_LEADER_HORN_MOTHER_STAGNATION: Your cities seem… barren. This concerns me.
+
 
         LOC_IMPROVEMENT_NESTING_GROUND_NAME: Nesting Ground
         LOC_IMPROVEMENT_NESTING_GROUND_DESCRIPTION: Sacred nesting grounds where the Herd lays and tends to their eggs. Provides +2 Housing and +1 Food. Gains +1 Food when adjacent to a Horn Mother, and +1 Culture when adjacent to a Herd Tree.
+
+        LOC_TRAIT_LEADER_GOOD_EGG_NAME: Good Egg
+        LOC_TRAIT_LEADER_GOOD_EGG_DESCRIPTION: +15% Growth in all cities. +20% Production toward land units before the Industrial Era.
+
 
 
         <!-- ===================== -->

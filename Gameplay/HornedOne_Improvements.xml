@@ -23,7 +23,11 @@
         <Row ImprovementType="IMPROVEMENT_NESTING_GROUND" UnitType="UNIT_BUILDER"/>
     </Improvement_ValidBuildUnits>
 
-    <!-- Conditions de terrain -->
+
+    <!-- ========================================================= -->
+    <!--  CONDITIONS DE TERRAIN                                    -->
+    <!-- ========================================================= -->
+
     <Improvement_ValidTerrains>
         <Row ImprovementType="IMPROVEMENT_NESTING_GROUND" TerrainType="TERRAIN_GRASS"/>
         <Row ImprovementType="IMPROVEMENT_NESTING_GROUND" TerrainType="TERRAIN_PLAINS"/>
@@ -43,11 +47,12 @@
 
 
     <!-- ========================================================= -->
-    <!--  BONUS : +1 FOOD                                          -->
+    <!--  YIELDS DE BASE                                           -->
     <!-- ========================================================= -->
 
     <Improvement_YieldChanges>
         <Row ImprovementType="IMPROVEMENT_NESTING_GROUND" YieldType="YIELD_FOOD" YieldChange="1"/>
+        <Row ImprovementType="IMPROVEMENT_NESTING_GROUND" YieldType="YIELD_CULTURE" YieldChange="1"/>
     </Improvement_YieldChanges>
 
 
@@ -96,7 +101,9 @@
     <!-- ========================================================= -->
 
     <IconDefinitions>
-        <Row Name="ICON_IMPROVEMENT_NESTING_GROUND" Atlas="ICON_ATLAS_HORNED_ONE" Index="5"/>
+        <Row Name="ICON_IMPROVEMENT_NESTING_GROUND"
+             Atlas="ICON_ATLAS_HORNED_ONE"
+             Index="5"/>
     </IconDefinitions>
 
 </GameInfo>

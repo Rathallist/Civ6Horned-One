@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+
+    <!-- ========================================================= -->
+    <!--  CIVILISATION                                             -->
+    <!-- ========================================================= -->
+
+    <IconDefinitions>
+        <Row Name="ICON_CIVILIZATION_HORNED_ONE" Atlas="ICON_ATLAS_HORNED_ONE" Index="0"/>
+        <Row Name="ICON_LEADER_HORN_MOTHER"      Atlas="ICON_ATLAS_HORNED_ONE" Index="1"/>
+
+        <!-- Unité générique Oni -->
+        <Row Name="ICON_UNIT_ONI"                Atlas="ICON_ATLAS_HORNED_ONE" Index="2"/>
+
+        <!-- Bâtiment unique -->
+        <Row Name="ICON_BUILDING_HERD_TREE"      Atlas="ICON_ATLAS_HORNED_ONE" Index="3"/>
+
+        <!-- Amélioration unique -->
+        <Row Name="ICON_IMPROVEMENT_NESTING_GROUND" Atlas="ICON_ATLAS_HORNED_ONE" Index="4"/>
+    </IconDefinitions>
+
+</GameInfo>
