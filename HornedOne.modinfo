@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b1a4c1e0-0001-4c00-aaaa-hornedone000001" version="1">
+    <Properties>
+        <Name>The Horned One</Name>
+        <Description>Adds a new Civilization led by Horn Mother.</Description>
+        <Teaser>The Horned One rises.</Teaser>
+        <Authors>altharos</Authors>
+        <SpecialThanks>Rathallist</SpecialThanks>
+        <CompatibleVersions>2.0</CompatibleVersions>
+    </Properties>
+
+    <Dependencies>
+        <Mod id="253b8670-0000-4d00-8888-basegame000000" title="Base Game" />
+    </Dependencies>
+
+    <InGameActions>
+        <UpdateDatabase id="Gameplay">
+            <File>Gameplay/HornedOne_Civilization.xml</File>
+            <File>Gameplay/HornedOne_Leader.xml</File>
+            <File>Gameplay/HornedOne_Traits.xml</File>
+            <File>Gameplay/HornedOne_Units.xml</File>
+        </UpdateDatabase>
+
+        <UpdateText id="Text">
+            <File>Text/Text_EN.xml</File>
+            <File>Text/Text_FR.xml</File>
+        </UpdateText>
+
+        <UpdateArt id="Art">
+            <File>Art/IconDefinitions.xml</File>
+        </UpdateArt>
+    </InGameActions>
+
+    <Files>
+        <File>Gameplay/HornedOne_Civilization.xml</File>
+        <File>Gameplay/HornedOne_Leader.xml</File>
+        <File>Gameplay/HornedOne_Traits.xml</File>
+        <File>Gameplay/HornedOne_Units.xml</File>
+
+        <File>Text/Text_EN.xml</File>
+        <File>Text/Text_FR.xml</File>
+
+        <File>Art/IconDefinitions.xml</File>
+        <File>Art/Icons/CivIcon.dds</File>
+        <File>Art/Icons/LeaderIcon.dds</File>
+        <File>Art/Icons/UnitIcon.dds</File>
+    </Files>
+</Mod>
