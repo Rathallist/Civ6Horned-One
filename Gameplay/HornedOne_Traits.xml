@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameInfo>
 
-    <!-- Trait de civilisation -->
+    <!-- ========================================================= -->
+    <!--  TRAIT DE CIVILISATION : CHILDREN OF THE HERD             -->
+    <!-- ========================================================= -->
+
     <Traits>
         <Row TraitType="TRAIT_CIVILIZATION_HORNED_ONE"
              Name="LOC_TRAIT_CIVILIZATION_HORNED_ONE_NAME"
@@ -13,7 +16,12 @@
              TraitType="TRAIT_CIVILIZATION_HORNED_ONE"/>
     </CivilizationTraits>
 
-    <!-- Trait du leader -->
+
+
+    <!-- ========================================================= -->
+    <!--  TRAIT DE LEADER : GOOD EGG                              -->
+    <!-- ========================================================= -->
+
     <Traits>
         <Row TraitType="TRAIT_LEADER_HORN_MOTHER"
              Name="LOC_TRAIT_LEADER_HORN_MOTHER_NAME"
@@ -24,5 +32,47 @@
         <Row LeaderType="LEADER_HORN_MOTHER"
              TraitType="TRAIT_LEADER_HORN_MOTHER"/>
     </LeaderTraits>
+
+
+
+    <!-- ========================================================= -->
+    <!--  GOOD EGG — BONUS DE CROISSANCE                          -->
+    <!-- ========================================================= -->
+
+    <TraitModifiers>
+        <Row TraitType="TRAIT_LEADER_HORN_MOTHER"
+             ModifierId="GOOD_EGG_GROWTH_BONUS"/>
+    </TraitModifiers>
+
+    <Modifiers>
+        <Row ModifierId="GOOD_EGG_GROWTH_BONUS"
+             ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_GROWTH"/>
+    </Modifiers>
+
+    <ModifierArguments>
+        <Row ModifierId="GOOD_EGG_GROWTH_BONUS" Name="Amount" Value="15"/> <!-- +15% Growth -->
+    </ModifierArguments>
+
+
+
+    <!-- ========================================================= -->
+    <!--  GOOD EGG — BONUS DE PRODUCTION (UNITÉS PRÉ-INDUSTRIELLES) -->
+    <!-- ========================================================= -->
+
+    <TraitModifiers>
+        <Row TraitType="TRAIT_LEADER_HORN_MOTHER"
+             ModifierId="GOOD_EGG_UNIT_PRODUCTION"/>
+    </TraitModifiers>
+
+    <Modifiers>
+        <Row ModifierId="GOOD_EGG_UNIT_PRODUCTION"
+             ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PRODUCTION"/>
+    </Modifiers>
+
+    <ModifierArguments>
+        <Row ModifierId="GOOD_EGG_UNIT_PRODUCTION" Name="UnitDomain" Value="DOMAIN_LAND"/>
+        <Row ModifierId="GOOD_EGG_UNIT_PRODUCTION" Name="EraPrereq" Value="ERA_INDUSTRIAL"/> <!-- Exclut Industrial et après -->
+        <Row ModifierId="GOOD_EGG_UNIT_PRODUCTION" Name="Amount" Value="20"/> <!-- +20% Production -->
+    </ModifierArguments>
 
 </GameInfo>

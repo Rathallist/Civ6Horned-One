@@ -19,4 +19,64 @@
         <Row Name="ICON_LEADER_HORN_MOTHER" Atlas="ICON_ATLAS_HORNED_ONE" Index="1"/>
     </IconDefinitions>
 
+
+     <!-- ========================================================= -->
+        <!--  AGENDA : MOTHER OF MANY                                  -->
+        <!-- ========================================================= -->
+
+        <Agendas>
+            <Row AgendaType="AGENDA_HORN_MOTHER" Name="LOC_AGENDA_HORN_MOTHER_NAME" Description="LOC_AGENDA_HORN_MOTHER_DESCRIPTION"/>
+        </Agendas>
+
+        <HistoricalAgendas>
+            <Row LeaderType="LEADER_HORN_MOTHER" AgendaType="AGENDA_HORN_MOTHER"/>
+        </HistoricalAgendas>
+
+
+        <!-- AIME : CIVILISATIONS AVEC FORTE CROISSANCE -->
+        <AgendaTraits>
+            <Row AgendaType="AGENDA_HORN_MOTHER" TraitType="TRAIT_AGENDA_HORN_MOTHER_LIKES_GROWTH"/>
+        </AgendaTraits>
+
+        <Traits>
+            <Row TraitType="TRAIT_AGENDA_HORN_MOTHER_LIKES_GROWTH"/>
+        </Traits>
+
+        <TraitModifiers>
+            <Row TraitType="TRAIT_AGENDA_HORN_MOTHER_LIKES_GROWTH" ModifierId="HORN_MOTHER_LIKES_GROWTH"/>
+        </TraitModifiers>
+
+        <Modifiers>
+            <Row ModifierId="HORN_MOTHER_LIKES_GROWTH" ModifierType="MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER"/>
+        </Modifiers>
+
+        <ModifierArguments>
+            <Row ModifierId="HORN_MOTHER_LIKES_GROWTH" Name="StatementKey" Value="LOC_DIPLO_KUDO_LEADER_HORN_MOTHER_GROWTH"/>
+            <Row ModifierId="HORN_MOTHER_LIKES_GROWTH" Name="SimpleModifierDescription" Value="LOC_DIPLO_MODIFIER_HORN_MOTHER_LIKES_GROWTH"/>
+            <Row ModifierId="HORN_MOTHER_LIKES_GROWTH" Name="Amount" Value="6"/> <!-- Bonus d’opinion -->
+        </ModifierArguments>
+
+
+        <!-- DÉTESTE : CIVILISATIONS AVEC FAIBLE CROISSANCE -->
+        <AgendaTraits>
+            <Row AgendaType="AGENDA_HORN_MOTHER" TraitType="TRAIT_AGENDA_HORN_MOTHER_HATES_STAGNATION"/>
+        </AgendaTraits>
+
+        <Traits>
+            <Row TraitType="TRAIT_AGENDA_HORN_MOTHER_HATES_STAGNATION"/>
+        </Traits>
+
+        <TraitModifiers>
+            <Row TraitType="TRAIT_AGENDA_HORN_MOTHER_HATES_STAGNATION" ModifierId="HORN_MOTHER_HATES_STAGNATION"/>
+        </TraitModifiers>
+
+        <Modifiers>
+            <Row ModifierId="HORN_MOTHER_HATES_STAGNATION" ModifierType="MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER"/>
+        </Modifiers>
+
+        <ModifierArguments>
+            <Row ModifierId="HORN_MOTHER_HATES_STAGNATION" Name="StatementKey" Value="LOC_DIPLO_WARNING_LEADER_HORN_MOTHER_STAGNATION"/>
+            <Row ModifierId="HORN_MOTHER_HATES_STAGNATION" Name="SimpleModifierDescription" Value="LOC_DIPLO_MODIFIER_HORN_MOTHER_HATES_STAGNATION"/>
+            <Row ModifierId="HORN_MOTHER_HATES_STAGNATION" Name="Amount" Value="-8"/> <!-- Malus d’opinion -->
+        </ModifierArguments>
 </GameInfo>

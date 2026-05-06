@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+
+    <!-- ========================================================= -->
+    <!--  BÂTIMENT UNIQUE : HERD TREE                              -->
+    <!-- ========================================================= -->
+
+    <Buildings>
+        <Row BuildingType="BUILDING_HERD_TREE"
+             Name="LOC_BUILDING_HERD_TREE_NAME"
+             Description="LOC_BUILDING_HERD_TREE_DESCRIPTION"
+             PrereqDistrict="DISTRICT_THEATER"
+             Cost="180"
+             Maintenance="3"
+             Housing="4"
+             MaxPlayerInstances="999"
+             MaxPlayerCityInstances="1"
+             AdvisorType="ADVISOR_CULTURE"/>
+    </Buildings>
+
+    <!-- Remplace l’Amphithéâtre -->
+    <BuildingReplaces>
+        <Row CivUniqueBuildingType="BUILDING_HERD_TREE" ReplacesBuildingType="BUILDING_AMPHITHEATER"/>
+    </BuildingReplaces>
+
+
+    <!-- ========================================================= -->
+    <!--  BONUS : CULTURE PAR POPULATION                           -->
+    <!-- ========================================================= -->
+
+    <BuildingModifiers>
+        <Row BuildingType="BUILDING_HERD_TREE" ModifierId="HERD_TREE_CULTURE_PER_POP"/>
+    </BuildingModifiers>
+
+    <Modifiers>
+        <Row ModifierId="HERD_TREE_CULTURE_PER_POP"
+             ModifierType="MODIFIER_SINGLE_CITY_ADJUST_YIELD_PER_POPULATION"/>
+    </Modifiers>
+
+    <ModifierArguments>
+        <Row ModifierId="HERD_TREE_CULTURE_PER_POP" Name="YieldType" Value="YIELD_CULTURE"/>
+        <Row ModifierId="HERD_TREE_CULTURE_PER_POP" Name="Amount" Value="0.33"/> <!-- 1 Culture par 3 pop -->
+    </ModifierArguments>
+
+
+    <!-- ========================================================= -->
+    <!--  ICÔNE                                                    -->
+    <!-- ========================================================= -->
+
+    <IconDefinitions>
+        <Row Name="ICON_BUILDING_HERD_TREE" Atlas="ICON_ATLAS_HORNED_ONE" Index="4"/>
+    </IconDefinitions>
+
+</GameInfo>

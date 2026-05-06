@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+
+    <!-- ========================================================= -->
+    <!--  AMÉLIORATION UNIQUE : NESTING GROUND                     -->
+    <!-- ========================================================= -->
+
+    <Improvements>
+        <Row ImprovementType="IMPROVEMENT_NESTING_GROUND"
+             Name="LOC_IMPROVEMENT_NESTING_GROUND_NAME"
+             Description="LOC_IMPROVEMENT_NESTING_GROUND_DESCRIPTION"
+             Buildable="true"
+             PlunderType="PLUNDER_FOOD"
+             PlunderAmount="25"
+             Housing="2"
+             SameAdjacentValid="false"
+             TilesPerCity="0"
+             Icon="ICON_IMPROVEMENT_NESTING_GROUND"/>
+    </Improvements>
+
+    <!-- Construit par les Bâtisseurs -->
+    <Improvement_ValidBuildUnits>
+        <Row ImprovementType="IMPROVEMENT_NESTING_GROUND" UnitType="UNIT_BUILDER"/>
+    </Improvement_ValidBuildUnits>
+
+    <!-- Conditions de terrain -->
+    <Improvement_ValidTerrains>
+        <Row ImprovementType="IMPROVEMENT_NESTING_GROUND" TerrainType="TERRAIN_GRASS"/>
+        <Row ImprovementType="IMPROVEMENT_NESTING_GROUND" TerrainType="TERRAIN_PLAINS"/>
+        <Row ImprovementType="IMPROVEMENT_NESTING_GROUND" TerrainType="TERRAIN_GRASS_HILLS"/>
+        <Row ImprovementType="IMPROVEMENT_NESTING_GROUND" TerrainType="TERRAIN_PLAINS_HILLS"/>
+    </Improvement_ValidTerrains>
+
+    <Improvement_ValidFeatures>
+        <Row ImprovementType="IMPROVEMENT_NESTING_GROUND" FeatureType="FEATURE_FOREST"/>
+        <Row ImprovementType="IMPROVEMENT_NESTING_GROUND" FeatureType="FEATURE_JUNGLE"/>
+    </Improvement_ValidFeatures>
+
+    <!-- Technologie requise -->
+    <ImprovementPrereqs>
+        <Row ImprovementType="IMPROVEMENT_NESTING_GROUND" PrereqCivic="CIVIC_EARLY_EMPIRE"/>
+    </ImprovementPrereqs>
+
+
+    <!-- ========================================================= -->
+    <!--  BONUS : +1 FOOD                                          -->
+    <!-- ========================================================= -->
+
+    <Improvement_YieldChanges>
+        <Row ImprovementType="IMPROVEMENT_NESTING_GROUND" YieldType="YIELD_FOOD" YieldChange="1"/>
+    </Improvement_YieldChanges>
+
+
+    <!-- ========================================================= -->
+    <!--  BONUS : +1 FOOD SI ADJACENT À UNE MÈRE-CORNE             -->
+    <!-- ========================================================= -->
+
+    <ImprovementModifiers>
+        <Row ImprovementType="IMPROVEMENT_NESTING_GROUND" ModifierId="NESTING_GROUND_ADJACENT_MOTHER"/>
+    </ImprovementModifiers>
+
+    <Modifiers>
+        <Row ModifierId="NESTING_GROUND_ADJACENT_MOTHER"
+             ModifierType="MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELD_BASED_ON_ADJACENT_UNIT"/>
+    </Modifiers>
+
+    <ModifierArguments>
+        <Row ModifierId="NESTING_GROUND_ADJACENT_MOTHER" Name="YieldType" Value="YIELD_FOOD"/>
+        <Row ModifierId="NESTING_GROUND_ADJACENT_MOTHER" Name="Amount" Value="1"/>
+        <Row ModifierId="NESTING_GROUND_ADJACENT_MOTHER" Name="UnitType" Value="UNIT_HORN_MOTHER"/>
+    </ModifierArguments>
+
+
+    <!-- ========================================================= -->
+    <!--  BONUS : +1 CULTURE SI ADJACENT À UN HERD TREE            -->
+    <!-- ========================================================= -->
+
+    <ImprovementModifiers>
+        <Row ImprovementType="IMPROVEMENT_NESTING_GROUND" ModifierId="NESTING_GROUND_ADJACENT_HERD_TREE"/>
+    </ImprovementModifiers>
+
+    <Modifiers>
+        <Row ModifierId="NESTING_GROUND_ADJACENT_HERD_TREE"
+             ModifierType="MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELD_BASED_ON_ADJACENT_BUILDING"/>
+    </Modifiers>
+
+    <ModifierArguments>
+        <Row ModifierId="NESTING_GROUND_ADJACENT_HERD_TREE" Name="YieldType" Value="YIELD_CULTURE"/>
+        <Row ModifierId="NESTING_GROUND_ADJACENT_HERD_TREE" Name="Amount" Value="1"/>
+        <Row ModifierId="NESTING_GROUND_ADJACENT_HERD_TREE" Name="BuildingType" Value="BUILDING_HERD_TREE"/>
+    </ModifierArguments>
+
+
+    <!-- ========================================================= -->
+    <!--  ICÔNE                                                    -->
+    <!-- ========================================================= -->
+
+    <IconDefinitions>
+        <Row Name="ICON_IMPROVEMENT_NESTING_GROUND" Atlas="ICON_ATLAS_HORNED_ONE" Index="5"/>
+    </IconDefinitions>
+
+</GameInfo>

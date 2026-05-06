@@ -77,5 +77,148 @@
             <Text>Le Herd se disperse… mais le cycle des œufs renaîtra. Nous reviendrons.</Text>
         </Row>
 
+        LOC_UNIT_MUSCLEHORN_NAME: MuscleHorn
+        LOC_UNIT_MUSCLEHORN_DESCRIPTION: Guerriers d’élite de la caste des MuscleHorns, composée principalement d’Oni. Malgré leur taille imposante, ils sont obéissants et calmes, entraînés dès l’éclosion pour protéger le Herd. Plus puissants en territoire allié et près de la Mère‑Corne.
+        LOC_ABILITY_MUSCLEHORN_TERRITORY_NAME: Gardiens du Herd
+        LOC_ABILITY_MUSCLEHORN_TERRITORY_DESCRIPTION: +5 de Force de combat en territoire allié.
+        LOC_ABILITY_MUSCLEHORN_LEADER_NAME: Présence de la Mère
+        LOC_ABILITY_MUSCLEHORN_LEADER_DESCRIPTION: +5 de Force de combat à 2 cases ou moins de la Mère‑Corne.
+
+        LOC_UNIT_HORN_MOTHER_NAME: Mère-Corne
+        LOC_UNIT_HORN_MOTHER_DESCRIPTION: Une matriarche vénérée du Herd. Lorsqu’elle réside dans une ville, elle augmente sa croissance et apporte harmonie et bien-être.
+        LOC_ABILITY_HORN_MOTHER_GROWTH_NAME: Bénédiction des Œufs
+        LOC_ABILITY_HORN_MOTHER_GROWTH_DESCRIPTION: +20% de Croissance dans la ville où se trouve la Mère-Corne. Fournit +1 Logement et +1 Agrément.
+        LOC_UNIT_HORN_MOTHER_LIMIT_DESCRIPTION: Votre Herd peut soutenir davantage de Mères-Cornes à mesure que vos traditions culturelles évoluent.
+
+        LOC_BUILDING_HERD_TREE_NAME: Arbre du Herd
+        LOC_BUILDING_HERD_TREE_DESCRIPTION: Un arbre sacré entretenu par le Herd. Fournit +4 Logements et +1 Culture pour chaque tranche de 3 Population dans la ville. Un seul Arbre du Herd peut être construit par ville.
+
+        LOC_AGENDA_HORN_MOTHER_NAME: Mère des Multitudes
+        LOC_AGENDA_HORN_MOTHER_DESCRIPTION: Respecte les civilisations qui prennent soin de leur population et font croître leurs villes. Déteste celles qui laissent leur peuple stagner ou souffrir.
+
+        LOC_DIPLO_KUDO_LEADER_HORN_MOTHER_GROWTH: Ton Herd grandit fort et sain. Voilà un bon egg.
+        LOC_DIPLO_MODIFIER_HORN_MOTHER_LIKES_GROWTH: Apprécie votre population en croissance.
+
+        LOC_DIPLO_WARNING_LEADER_HORN_MOTHER_STAGNATION: Ton peuple ne prospère pas, no-horn. Une ville sans croissance est un Herd mourant.
+        LOC_DIPLO_MODIFIER_HORN_MOTHER_HATES_STAGNATION: Désapprouve votre population stagnante ou en déclin.
+
+        LOC_IMPROVEMENT_NESTING_GROUND_NAME: Aire de Nidification
+        LOC_IMPROVEMENT_NESTING_GROUND_DESCRIPTION: Aire sacrée où le Herd pond et veille sur ses œufs. Fournit +2 Logements et +1 Nourriture. Donne +1 Nourriture si adjacent à une Mère-Corne, et +1 Culture si adjacent à un Arbre du Herd.
+
+
+        <!-- ===================== -->
+        <!-- LIGNE ONI MÉLÉE (FR)  -->
+        <!-- ===================== -->
+
+        <Row Tag="LOC_UNIT_ONI_MELEE_01_NAME" Language="fr_FR"><Text>Oni Novice</Text></Row>
+        <Row Tag="LOC_UNIT_ONI_MELEE_01_DESCRIPTION" Language="fr_FR">
+        <Text>Un jeune groupe d’Oni formés au combat rapproché. Leur force est brute, leur discipline encore naissante.</Text></Row>
+
+        <Row Tag="LOC_UNIT_ONI_MELEE_02_NAME" Language="fr_FR"><Text>Oni Guerrier</Text></Row>
+        <Row Tag="LOC_UNIT_ONI_MELEE_02_DESCRIPTION" Language="fr_FR">
+        <Text>Un groupe discipliné d’Oni combattants, aguerris par les rites du Herd.</Text></Row>
+
+        <Row Tag="LOC_UNIT_ONI_MELEE_03_NAME" Language="fr_FR"><Text>Bataillon Oni</Text></Row>
+        <Row Tag="LOC_UNIT_ONI_MELEE_03_DESCRIPTION" Language="fr_FR">
+        <Text>Un bataillon coordonné d’Oni, combattant comme une masse unifiée de muscles et de discipline.</Text></Row>
+
+        <Row Tag="LOC_UNIT_ONI_MELEE_04_NAME" Language="fr_FR"><Text>Cohorte Oni</Text></Row>
+        <Row Tag="LOC_UNIT_ONI_MELEE_04_DESCRIPTION" Language="fr_FR">
+        <Text>Une cohorte d’Oni vétérans, capables d’écraser leurs ennemis par la pression constante du nombre.</Text></Row>
+
+        <Row Tag="LOC_UNIT_ONI_MELEE_05_NAME" Language="fr_FR"><Text>Légion Oni</Text></Row>
+        <Row Tag="LOC_UNIT_ONI_MELEE_05_DESCRIPTION" Language="fr_FR">
+        <Text>Une immense légion d’Oni, parfaitement entraînée et redoutée pour son avancée implacable.</Text></Row>
+
+        <Row Tag="LOC_UNIT_ONI_MELEE_06_NAME" Language="fr_FR"><Text>Horde Oni</Text></Row>
+        <Row Tag="LOC_UNIT_ONI_MELEE_06_DESCRIPTION" Language="fr_FR">
+        <Text>Une vaste horde d’Oni guerriers, dont le nombre et la discipline remplacent les machines des autres peuples.</Text></Row>
+
+        <Row Tag="LOC_UNIT_ONI_MELEE_07_NAME" Language="fr_FR"><Text>Horde Oni d’Élite</Text></Row>
+        <Row Tag="LOC_UNIT_ONI_MELEE_07_DESCRIPTION" Language="fr_FR">
+        <Text>Une horde d’élite d’Oni aguerris, capables de broyer acier et pierre par leur unité terrifiante.</Text></Row>
+
+        <Row Tag="LOC_UNIT_ONI_MELEE_08_NAME" Language="fr_FR"><Text>Oni Ascendants</Text></Row>
+        <Row Tag="LOC_UNIT_ONI_MELEE_08_DESCRIPTION" Language="fr_FR">
+        <Text>L’apogée de l’évolution martiale Oni : une force colossale, parfaitement synchronisée et inégalée en puissance brute.</Text></Row>
+
+
+
+        <!-- ===================== -->
+        <!-- LIGNE ONI À DISTANCE  -->
+        <!-- ===================== -->
+
+        <Row Tag="LOC_UNIT_ONI_RANGED_01_NAME" Language="fr_FR"><Text>Oni Fondeur</Text></Row>
+        <Row Tag="LOC_UNIT_ONI_RANGED_01_DESCRIPTION" Language="fr_FR">
+        <Text>De jeunes Oni capables de projeter des pierres avec une force surprenante. Simple mais efficace.</Text></Row>
+
+        <Row Tag="LOC_UNIT_ONI_RANGED_02_NAME" Language="fr_FR"><Text>Oni Archer</Text></Row>
+        <Row Tag="LOC_UNIT_ONI_RANGED_02_DESCRIPTION" Language="fr_FR">
+        <Text>Des archers Oni combinant force brute et précision, tirant des flèches lourdes capables de percer les armures.</Text></Row>
+
+        <Row Tag="LOC_UNIT_ONI_RANGED_03_NAME" Language="fr_FR"><Text>Oni Arbalétrier</Text></Row>
+        <Row Tag="LOC_UNIT_ONI_RANGED_03_DESCRIPTION" Language="fr_FR">
+        <Text>Des Oni maniant l’arbalète, capables de décocher des carreaux d’une puissance dévastatrice.</Text></Row>
+
+        <Row Tag="LOC_UNIT_ONI_RANGED_04_NAME" Language="fr_FR"><Text>Tireur Oni</Text></Row>
+        <Row Tag="LOC_UNIT_ONI_RANGED_04_DESCRIPTION" Language="fr_FR">
+        <Text>Des tireurs Oni d’élite, entraînés à tirer en volées coordonnées pour submerger l’ennemi.</Text></Row>
+
+        <Row Tag="LOC_UNIT_ONI_RANGED_05_NAME" Language="fr_FR"><Text>Corps de Volée Oni</Text></Row>
+        <Row Tag="LOC_UNIT_ONI_RANGED_05_DESCRIPTION" Language="fr_FR">
+        <Text>Un corps discipliné de tireurs Oni, remplaçant les armes à feu par la force brute et la technique perfectionnée.</Text></Row>
+
+        <Row Tag="LOC_UNIT_ONI_RANGED_06_NAME" Language="fr_FR"><Text>Corps de Volée d’Élite</Text></Row>
+        <Row Tag="LOC_UNIT_ONI_RANGED_06_DESCRIPTION" Language="fr_FR">
+        <Text>Des tireurs Oni d’élite capables de libérer des volées synchronisées d’une puissance redoutable.</Text></Row>
+
+        <Row Tag="LOC_UNIT_ONI_RANGED_07_NAME" Language="fr_FR"><Text>Corps de Précision Oni</Text></Row>
+        <Row Tag="LOC_UNIT_ONI_RANGED_07_DESCRIPTION" Language="fr_FR">
+        <Text>Un corps hautement entraîné de tireurs Oni, dont la précision rivalise avec les machines des autres civilisations.</Text></Row>
+
+        <Row Tag="LOC_UNIT_ONI_RANGED_08_NAME" Language="fr_FR"><Text>Élite de Précision Oni</Text></Row>
+        <Row Tag="LOC_UNIT_ONI_RANGED_08_DESCRIPTION" Language="fr_FR">
+        <Text>La formation ultime de tireurs Oni, capable d’anéantir ses cibles avec une coordination parfaite.</Text></Row>
+
+
+
+        <!-- ===================== -->
+        <!-- LIGNE ONI LOURDE      -->
+        <!-- ===================== -->
+
+        <Row Tag="LOC_UNIT_ONI_HEAVY_01_NAME" Language="fr_FR"><Text>Oni Percuteur</Text></Row>
+        <Row Tag="LOC_UNIT_ONI_HEAVY_01_DESCRIPTION" Language="fr_FR">
+        <Text>Des troupes de choc Oni rapides, brisant les lignes ennemies par leur élan brutal.</Text></Row>
+
+        <Row Tag="LOC_UNIT_ONI_HEAVY_02_NAME" Language="fr_FR"><Text>Oni Cavalier</Text></Row>
+        <Row Tag="LOC_UNIT_ONI_HEAVY_02_DESCRIPTION" Language="fr_FR">
+        <Text>Des Oni montés frappant avec vitesse et force écrasante.</Text></Row>
+
+        <Row Tag="LOC_UNIT_ONI_HEAVY_03_NAME" Language="fr_FR"><Text>Avant‑Garde Oni</Text></Row>
+        <Row Tag="LOC_UNIT_ONI_HEAVY_03_DESCRIPTION" Language="fr_FR">
+        <Text>Des troupes de choc Oni lourdement entraînées, ouvrant les assauts avec une efficacité brutale.</Text></Row>
+
+        <Row Tag="LOC_UNIT_ONI_HEAVY_04_NAME" Language="fr_FR"><Text>Briseur Oni</Text></Row>
+        <Row Tag="LOC_UNIT_ONI_HEAVY_04_DESCRIPTION" Language="fr_FR">
+        <Text>Des unités Oni d’élite capables de détruire les positions fortifiées par leur seule puissance physique.</Text></Row>
+
+        <Row Tag="LOC_UNIT_ONI_HEAVY_05_NAME" Language="fr_FR"><Text>Avant‑Garde de Fer Oni</Text></Row>
+        <Row Tag="LOC_UNIT_ONI_HEAVY_05_DESCRIPTION" Language="fr_FR">
+        <Text>Une formation massive d’Oni lourds, dont la discipline rivalise avec les divisions blindées des autres peuples.</Text></Row>
+
+        <Row Tag="LOC_UNIT_ONI_HEAVY_06_NAME" Language="fr_FR"><Text>Horde de Fer Oni</Text></Row>
+        <Row Tag="LOC_UNIT_ONI_HEAVY_06_DESCRIPTION" Language="fr_FR">
+        <Text>Une horde colossale d’Oni de choc, remplaçant les chars par des corps vivants et une force irrésistible.</Text></Row>
+
+        <Row Tag="LOC_UNIT_ONI_HEAVY_07_NAME" Language="fr_FR"><Text>Corps Tonnerre Oni</Text></Row>
+        <Row Tag="LOC_UNIT_ONI_HEAVY_07_DESCRIPTION" Language="fr_FR">
+        <Text>Un corps tonitruant d’Oni lourds, dont les charges font trembler le champ de bataille.</Text></Row>
+
+        <Row Tag="LOC_UNIT_ONI_HEAVY_08_NAME" Language="fr_FR"><Text>Élite Tonnerre Oni</Text></Row>
+        <Row Tag="LOC_UNIT_ONI_HEAVY_08_DESCRIPTION" Language="fr_FR">
+        <Text>La formation ultime d’Oni lourds, capable d’écraser même les armées mécanisées par la seule force brute.</Text></Row>
+
+
+
     </LocalizedText>
 </GameData>
