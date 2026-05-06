@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <LocalizedText>
+
+        <!-- CIVILISATION -->
+        <Row Tag="LOC_CIVILIZATION_HORNED_ONE_NAME" Language="fr_FR">
+            <Text>Les Cornus</Text>
+        </Row>
+        <Row Tag="LOC_CIVILIZATION_HORNED_ONE_DESCRIPTION" Language="fr_FR">
+            <Text>Un peuple hédoniste et communautaire vivant en Herds soudés, guidés par les rites anciens et la sagesse de leurs Mères-Cornes.</Text>
+        </Row>
+        <Row Tag="LOC_CIVILIZATION_HORNED_ONE_ADJECTIVE" Language="fr_FR">
+            <Text>Cornu</Text>
+        </Row>
+
+        <!-- LEADER -->
+        <Row Tag="LOC_LEADER_HORN_MOTHER_NAME" Language="fr_FR">
+            <Text>Mère-Corne</Text>
+        </Row>
+        <Row Tag="LOC_LEADER_HORN_MOTHER_DESCRIPTION" Language="fr_FR">
+            <Text>Jeune et charismatique, cette Mère-Corne a été choisie pour diriger le Herd. Bien que plusieurs Mères-Cornes existent, une seule est élue Leader pour guider l’ensemble du troupeau.</Text>
+        </Row>
+
+        <!-- TRAITS -->
+        <Row Tag="LOC_TRAIT_CIVILIZATION_HORNED_ONE_NAME" Language="fr_FR">
+            <Text>Enfants du Herd</Text>
+        </Row>
+        <Row Tag="LOC_TRAIT_CIVILIZATION_HORNED_ONE_DESCRIPTION" Language="fr_FR">
+            <Text>Les Cornus prospèrent grâce à l’unité, au plaisir partagé et à la force de leur communauté. Leur système de castes assure l’harmonie et la cohésion du Herd.</Text>
+        </Row>
+
+        <Row Tag="LOC_TRAIT_LEADER_HORN_MOTHER_NAME" Language="fr_FR">
+            <Text>Good Egg</Text>
+        </Row>
+
+        <Row Tag="LOC_TRAIT_LEADER_HORN_MOTHER_DESCRIPTION" Language="fr_FR">
+            <Text>La Mère‑Corne apporte prospérité et bon augure au Herd. Les villes croissent plus vite, et les MuscleHorns répondent à son appel avec une dévotion totale, augmentant la Production des unités terrestres d’avant l’Ère Industrielle.</Text>
+        </Row>
+
+
+
+        <!-- UNITÉ UNIQUE -->
+        <Row Tag="LOC_UNIT_HORNED_ONE_CHAMPION_NAME" Language="fr_FR">
+            <Text>Champion du Herd</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_HORNED_ONE_CHAMPION_DESCRIPTION" Language="fr_FR">
+            <Text>Guerriers d’élite de la caste des MuscleHorns, composée principalement d’Oni. Malgré leur taille imposante, ils sont obéissants et calmes, entraînés dès l’éclosion pour protéger le Herd. Plus puissants près des villes alliées ou des Mères‑Cornes.</Text>
+        </Row>
+
+
+
+        <!-- CIVILOPÉDIE -->
+        <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HORNED_ONE_CHAPTER_HISTORY_PARA_2" Language="fr_FR">
+            <Text>Les MuscleHorns, une caste d’Oni massifs, servent de chasseurs, de travailleurs et de protecteurs. Capables d’écraser bois et pierre à mains nues, ils sont pourtant connus pour leur obéissance et leur discipline au sein du Herd.</Text>
+        </Row>
+
+        <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HORNED_ONE_CHAPTER_HISTORY_PARA_3" Language="fr_FR">
+            <Text>Une Mère‑Corne vit entre vingt et vingt‑cinq ans et pond plusieurs milliers d’œufs au cours de sa vie. Bien que plusieurs Mères‑Cornes existent, une seule est élue Leader, guidant le Herd avec énergie et charisme.</Text>
+        </Row>
+
+
+
+        <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HORN_MOTHER_CHAPTER_HISTORY_PARA_1" Language="fr_FR">
+            <Text>La Mère-Corne est une jeune matriarche dont le charisme et l’énergie unissent le Herd. Elle incarne la joie, la sensualité et la force communautaire de son peuple, guidant les siens avec douceur plutôt qu’avec crainte.</Text>
+        </Row>
+
+        <!-- DIPLOMATIE -->
+        <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_HORN_MOTHER_ANY" Language="fr_FR">
+            <Text>Le Herd t’observe, no-horn. Avance avec douceur : nos œufs sont précieux et notre confiance n'est pas donnée.</Text>
+        </Row>
+
+        <Row Tag="LOC_DIPLO_DECLARE_WAR_LEADER_HORN_MOTHER_ANY" Language="fr_FR">
+            <Text>Tu menaces le Herd. Ta présence sent le bad egg. Nous protégerons les nôtres.</Text>
+        </Row>
+
+        <Row Tag="LOC_DIPLO_DEFEAT_LEADER_HORN_MOTHER_ANY" Language="fr_FR">
+            <Text>Le Herd se disperse… mais le cycle des œufs renaîtra. Nous reviendrons.</Text>
+        </Row>
+
+    </LocalizedText>
+</GameData>

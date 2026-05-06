@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <LocalizedText>
+
+        <!-- CIVILIZATION -->
+        <Row Tag="LOC_CIVILIZATION_HORNED_ONE_NAME" Language="en_US">
+            <Text>The Horned One</Text>
+        </Row>
+        <Row Tag="LOC_CIVILIZATION_HORNED_ONE_DESCRIPTION" Language="en_US">
+            <Text>A communal and hedonistic people who live in tightly bonded Herds, guided by ancient rituals and the wisdom of their Horn Mothers.</Text>
+        </Row>
+        <Row Tag="LOC_CIVILIZATION_HORNED_ONE_ADJECTIVE" Language="en_US">
+            <Text>Horned</Text>
+        </Row>
+
+        <!-- LEADER -->
+        <Row Tag="LOC_LEADER_HORN_MOTHER_NAME" Language="en_US">
+            <Text>Horn Mother</Text>
+        </Row>
+        <Row Tag="LOC_LEADER_HORN_MOTHER_DESCRIPTION" Language="en_US">
+            <Text>A young and charismatic Horn Mother chosen to lead her Herd. Though many Horn Mothers exist, only one is ever entrusted with guiding the entire Herd as its Leader.</Text>
+        </Row>
+
+        <!-- TRAITS -->
+        <Row Tag="LOC_TRAIT_CIVILIZATION_HORNED_ONE_NAME" Language="en_US">
+            <Text>Children of the Herd</Text>
+        </Row>
+        <Row Tag="LOC_TRAIT_CIVILIZATION_HORNED_ONE_DESCRIPTION" Language="en_US">
+            <Text>The Horned One thrive through unity, shared pleasure, and communal strength. Their caste system ensures harmony, purpose, and the well-being of the Herd.</Text>
+        </Row>
+
+        <Row Tag="LOC_TRAIT_LEADER_HORN_MOTHER_NAME" Language="en_US">
+            <Text>Good Egg</Text>
+        </Row>
+
+        <Row Tag="LOC_TRAIT_LEADER_HORN_MOTHER_DESCRIPTION" Language="en_US">
+            <Text>The Horn Mother brings prosperity and good omens to the Herd. Cities grow faster, and the MuscleHorns answer her call with unmatched devotion, granting increased Production toward pre‑Industrial land units.</Text>
+        </Row>
+
+
+        <!-- UNIQUE UNIT -->
+        <Row Tag="LOC_UNIT_HORNED_ONE_CHAMPION_NAME" Language="en_US">
+            <Text>Herd Champion</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_HORNED_ONE_CHAMPION_DESCRIPTION" Language="en_US">
+            <Text>Elite warriors of the MuscleHorn caste, composed mostly of Oni. Despite their imposing size, they are obedient and calm, trained from hatching to protect the Herd. Gains strength near friendly cities or Horn Mothers.</Text>
+        </Row>
+
+
+        <!-- CIVILOPEDIA -->
+        <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HORNED_ONE_CHAPTER_HISTORY_PARA_2" Language="en_US">
+            <Text>The MuscleHorns, a caste of towering Oni, serve as hunters, workers, and protectors. Though capable of crushing wood and stone with their bare hands, they are known for their obedience and gentle discipline within the Herd.</Text>
+        </Row>
+
+        <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HORNED_ONE_CHAPTER_HISTORY_PARA_3" Language="en_US">
+            <Text>A Horn Mother can live between twenty and twenty‑five years, laying thousands of eggs throughout her life. While many Horn Mothers exist, only one is chosen as Leader, guiding the Herd with charisma and youthful energy.</Text>
+        </Row>
+
+
+        <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HORN_MOTHER_CHAPTER_HISTORY_PARA_1" Language="en_US">
+            <Text>The Horn Mother is a young matriarch whose charm and energy unite the Herd. She embodies the joy, sensuality, and communal strength of her people, guiding them with warmth rather than fear.</Text>
+        </Row>
+
+        <!-- DIPLOMACY -->
+        <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_HORN_MOTHER_ANY" Language="en_US">
+            <Text>The Herd greets you, no-horn. Tread softly—our eggs are precious, and our trust is earned slowly.</Text>
+        </Row>
+
+        <Row Tag="LOC_DIPLO_DECLARE_WAR_LEADER_HORN_MOTHER_ANY" Language="en_US">
+            <Text>You threaten the Herd. Your presence sours the air like a bad egg. We will protect our own.</Text>
+        </Row>
+
+        <Row Tag="LOC_DIPLO_DEFEAT_LEADER_HORN_MOTHER_ANY" Language="en_US">
+            <Text>The Herd scatters… but the cycle of eggs will begin anew. We will rise again.</Text>
+        </Row>
+
+    </LocalizedText>
+</GameData>
