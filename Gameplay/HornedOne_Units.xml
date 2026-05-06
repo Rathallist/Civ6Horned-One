@@ -336,5 +336,100 @@
     <UnitPrereqs>
         <Row UnitType="UNIT_ONI_HEAVY_08" PrereqTech="TECH_FUTURE_TECH"/>
     </UnitPrereqs>
+    
+
+    
+
+    <!-- ========================================================= -->
+    <!--  UNITÉ SPÉCIALE : HORN MOTHER                             -->
+    <!-- ========================================================= -->
+
+    <Units>
+        <Row UnitType="UNIT_HORN_MOTHER"
+             Name="LOC_UNIT_HORN_MOTHER_NAME"
+             Description="LOC_UNIT_HORN_MOTHER_DESCRIPTION"
+             BaseMoves="2"
+             Cost="80"
+             AdvisorType="ADVISOR_GROWTH"
+             BaseSightRange="2"
+             ZoneOfControl="false"
+             Domain="DOMAIN_LAND"
+             FormationClass="FORMATION_CLASS_SUPPORT"
+             CanCapture="false"
+             CanTrain="true"
+             Combat="0"
+             RangedCombat="0"
+             Range="0"
+             PrereqCivic="CIVIC_EARLY_EMPIRE"
+             PurchaseYield="YIELD_FAITH"
+             MandatoryObsoleteTech="TECH_COMBUSTION"/>
+    </Units>
+
+
+    <!-- ========================================================= -->
+    <!--  LIMITE PAR VILLE (PROGRESSIVE AVEC LES CIVICS)           -->
+    <!-- ========================================================= -->
+
+    <UnitLimits>
+        <Row UnitType="UNIT_HORN_MOTHER" MaxPlayerInstances="999" MaxPlayerCityInstances="1"/>
+    </UnitLimits>
+
+    <Modifiers>
+        <!-- +1 Horn Mother par ville avec State Workforce -->
+        <Row ModifierId="HORN_MOTHER_LIMIT_2" ModifierType="MODIFIER_PLAYER_ADJUST_UNIT_MAX_PER_CITY"/>
+        <!-- +1 Horn Mother par ville avec Guilds -->
+        <Row ModifierId="HORN_MOTHER_LIMIT_3" ModifierType="MODIFIER_PLAYER_ADJUST_UNIT_MAX_PER_CITY"/>
+    </Modifiers>
+
+    <ModifierArguments>
+        <Row ModifierId="HORN_MOTHER_LIMIT_2" Name="UnitType" Value="UNIT_HORN_MOTHER"/>
+        <Row ModifierId="HORN_MOTHER_LIMIT_2" Name="Amount" Value="1"/>
+
+        <Row ModifierId="HORN_MOTHER_LIMIT_3" Name="UnitType" Value="UNIT_HORN_MOTHER"/>
+        <Row ModifierId="HORN_MOTHER_LIMIT_3" Name="Amount" Value="1"/>
+    </ModifierArguments>
+
+    <CivicModifiers>
+        <Row CivicType="CIVIC_STATE_WORKFORCE" ModifierId="HORN_MOTHER_LIMIT_2"/>
+        <Row CivicType="CIVIC_GUILDS" ModifierId="HORN_MOTHER_LIMIT_3"/>
+    </CivicModifiers>
+
+
+    <!-- ========================================================= -->
+    <!--  BONUS À LA VILLE OÙ ELLE EST STATIONNÉE                  -->
+    <!-- ========================================================= -->
+
+    <UnitAbilities>
+        <Row UnitAbilityType="ABILITY_HORN_MOTHER_AURA"
+             Name="LOC_ABILITY_HORN_MOTHER_AURA_NAME"
+             Description="LOC_ABILITY_HORN_MOTHER_AURA_DESCRIPTION"/>
+    </UnitAbilities>
+
+    <UnitAbilityModifiers>
+        <Row UnitAbilityType="ABILITY_HORN_MOTHER_AURA" ModifierId="HORN_MOTHER_CITY_GROWTH"/>
+        <Row UnitAbilityType="ABILITY_HORN_MOTHER_AURA" ModifierId="HORN_MOTHER_CITY_HOUSING"/>
+        <Row UnitAbilityType="ABILITY_HORN_MOTHER_AURA" ModifierId="HORN_MOTHER_CITY_AMENITY"/>
+    </UnitAbilityModifiers>
+
+    <Modifiers>
+        <Row ModifierId="HORN_MOTHER_CITY_GROWTH" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_GROWTH"/>
+        <Row ModifierId="HORN_MOTHER_CITY_HOUSING" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_HOUSING"/>
+        <Row ModifierId="HORN_MOTHER_CITY_AMENITY" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_AMENITIES_FROM_CITY"/>
+    </Modifiers>
+
+    <ModifierArguments>
+        <Row ModifierId="HORN_MOTHER_CITY_GROWTH" Name="Amount" Value="0.20"/> <!-- +20% Growth -->
+        <Row ModifierId="HORN_MOTHER_CITY_HOUSING" Name="Amount" Value="1"/>   <!-- +1 Housing -->
+        <Row ModifierId="HORN_MOTHER_CITY_AMENITY" Name="Amount" Value="1"/>   <!-- +1 Amenity -->
+    </ModifierArguments>
+
+
+    <!-- ========================================================= -->
+    <!--  ICÔNE                                                    -->
+    <!-- ========================================================= -->
+
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_HORN_MOTHER" Atlas="ICON_ATLAS_HORNED_ONE" Index="25"/>
+    </IconDefinitions>
 
 </GameInfo>
