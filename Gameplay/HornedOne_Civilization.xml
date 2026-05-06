@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+
+    <!-- Déclaration de la civilisation -->
+    <Civilizations>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE"
+             Name="LOC_CIVILIZATION_HORNED_ONE_NAME"
+             Description="LOC_CIVILIZATION_HORNED_ONE_DESCRIPTION"
+             Adjective="LOC_CIVILIZATION_HORNED_ONE_ADJECTIVE"
+             StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV"/>
+    </Civilizations>
+
+    <!-- Couleurs de la civilisation -->
+    <CivilizationColors>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE"
+             PrimaryColor="COLOR_HORNED_ONE_PRIMARY"
+             SecondaryColor="COLOR_HORNED_ONE_SECONDARY"/>
+    </CivilizationColors>
+
+    <!-- Icônes -->
+    <IconDefinitions>
+        <Row Name="ICON_CIVILIZATION_HORNED_ONE" Atlas="ICON_ATLAS_HORNED_ONE" Index="0"/>
+    </IconDefinitions>
+
+</GameInfo>

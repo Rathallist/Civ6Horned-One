@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+
+    <!-- Unité unique (placeholder) -->
+    <Units>
+        <Row UnitType="UNIT_HORNED_ONE_CHAMPION"
+             Name="LOC_UNIT_HORNED_ONE_CHAMPION_NAME"
+             Description="LOC_UNIT_HORNED_ONE_CHAMPION_DESCRIPTION"
+             BaseMoves="2"
+             Cost="65"
+             Combat="20"
+             Domain="DOMAIN_LAND"
+             FormationClass="FORMATION_CLASS_LAND_COMBAT"
+             AdvisorType="ADVISOR_CONQUEST"/>
+    </Units>
+
+    <!-- Lien civilisation → unité -->
+    <CivilizationUnits>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE"
+             UnitType="UNIT_HORNED_ONE_CHAMPION"/>
+    </CivilizationUnits>
+
+    <!-- Icône -->
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_HORNED_ONE_CHAMPION" Atlas="ICON_ATLAS_HORNED_ONE" Index="2"/>
+    </IconDefinitions>
+
+</GameInfo>

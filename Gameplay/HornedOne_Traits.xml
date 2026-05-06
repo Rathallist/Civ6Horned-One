@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+
+    <!-- Trait de civilisation -->
+    <Traits>
+        <Row TraitType="TRAIT_CIVILIZATION_HORNED_ONE"
+             Name="LOC_TRAIT_CIVILIZATION_HORNED_ONE_NAME"
+             Description="LOC_TRAIT_CIVILIZATION_HORNED_ONE_DESCRIPTION"/>
+    </Traits>
+
+    <CivilizationTraits>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE"
+             TraitType="TRAIT_CIVILIZATION_HORNED_ONE"/>
+    </CivilizationTraits>
+
+    <!-- Trait du leader -->
+    <Traits>
+        <Row TraitType="TRAIT_LEADER_HORN_MOTHER"
+             Name="LOC_TRAIT_LEADER_HORN_MOTHER_NAME"
+             Description="LOC_TRAIT_LEADER_HORN_MOTHER_DESCRIPTION"/>
+    </Traits>
+
+    <LeaderTraits>
+        <Row LeaderType="LEADER_HORN_MOTHER"
+             TraitType="TRAIT_LEADER_HORN_MOTHER"/>
+    </LeaderTraits>
+
+</GameInfo>

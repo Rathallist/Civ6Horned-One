@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+
+    <!-- Leader -->
+    <Leaders>
+        <Row LeaderType="LEADER_HORN_MOTHER"
+             Name="LOC_LEADER_HORN_MOTHER_NAME"
+             InheritFrom="LEADER_DEFAULT"/>
+    </Leaders>
+
+    <!-- Leader attaché à la civilisation -->
+    <CivilizationLeaders>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE"
+             LeaderType="LEADER_HORN_MOTHER"/>
+    </CivilizationLeaders>
+
+    <!-- Icône du leader -->
+    <IconDefinitions>
+        <Row Name="ICON_LEADER_HORN_MOTHER" Atlas="ICON_ATLAS_HORNED_ONE" Index="1"/>
+    </IconDefinitions>
+
+</GameInfo>
