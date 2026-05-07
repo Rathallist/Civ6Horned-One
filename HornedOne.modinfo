@@ -8,27 +8,48 @@
         <Authors>altharos</Authors>
         <SpecialThanks>Dan Kin</SpecialThanks>
         <CompatibleVersions>2.0</CompatibleVersions>
-    </Properties>
 
+        <!-- CRITIQUE : Civ6 ne charge pas le mod sans ça -->
+        <ModType>Gameplay</ModType>
+    </Properties>
 
     <!-- ========================================================= -->
     <!--  DÉPENDANCES                                               -->
     <!-- ========================================================= -->
 
-    <Dependencies>
-        <!-- Gathering Storm (XP2) -->
-        <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm"/>
-    </Dependencies>
-
 
     <!-- ========================================================= -->
-    <!--  ACTIONS EN JEU                                            -->
+    <!--  FRONT END                                                 -->
+    <!-- ========================================================= -->
+
+    <FrontEndActions>
+
+        <!-- Textes pour l’écran de sélection -->
+        <UpdateText id="FrontEndText">
+            <File>Text/Text_EN.xml</File>
+            <File>Text/Text_FR.xml</File>
+        </UpdateText>
+
+        <!-- CRITIQUE : le .dep doit être chargé au FrontEnd -->
+        <UpdateArt id="ArtFrontEnd">
+            <File>Art/HornedOne.dep</File>
+        </UpdateArt>
+
+    </FrontEndActions>
+
+    <!-- ========================================================= -->
+    <!--  IN-GAME ACTIONS                                           -->
     <!-- ========================================================= -->
 
     <InGameActions>
 
         <!-- GAMEPLAY -->
         <UpdateDatabase id="Gameplay">
+            <Properties>
+                <!-- Charge après tous les DLC et mods lourds -->
+                <LoadOrder>200000</LoadOrder>
+            </Properties>
+
             <File>Gameplay/HornedOne_Civilization.xml</File>
             <File>Gameplay/HornedOne_Leader.xml</File>
             <File>Gameplay/HornedOne_Traits.xml</File>
@@ -44,15 +65,19 @@
             <File>Text/Text_FR.xml</File>
         </UpdateText>
 
-        <!-- ART -->
-        <UpdateArt id="Art">
+        <!-- ICONES -->
+        <UpdateArt id="ArtIcons">
             <File>Art/IconDefinitions.xml</File>
             <File>Art/IconAtlas.xml</File>
             <File>Art/Icons/HornedOne_Atlas.dds</File>
         </UpdateArt>
 
-    </InGameActions>
+        <!-- CRITIQUE : le .dep doit aussi être chargé InGame -->
+        <UpdateArt id="ArtInGame">
+            <File>Art/HornedOne.dep</File>
+        </UpdateArt>
 
+    </InGameActions>
 
     <!-- ========================================================= -->
     <!--  LISTE DES FICHIERS                                        -->
@@ -78,13 +103,9 @@
         <File>Art/IconAtlas.xml</File>
         <File>Art/Icons/HornedOne_Atlas.dds</File>
 
+        <!-- CRITIQUE : le .dep doit être listé ici -->
+        <File>Art/HornedOne.dep</File>
 
     </Files>
-
-    <FrontEndActions>
-    <UpdateDatabase>
-        <File></File>
-    </UpdateDatabase>
-</FrontEndActions>
 
 </Mod>
