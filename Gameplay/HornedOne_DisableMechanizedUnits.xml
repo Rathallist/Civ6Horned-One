@@ -5,7 +5,8 @@
     <!--  DISABLE ALL MECHANIZED / MODERN UNITS FOR HORNED ONE     -->
     <!-- ========================================================= -->
 
-    <Civilization_UnitClassOverrides>
+    <!-- NOTE: Table corrigée de Civilization_UnitClassOverrides → CivilizationUnitClassOverrides -->
+    <CivilizationUnitClassOverrides>
         <!-- LAND MECHANIZED -->
         <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitClassType="UNITCLASS_TANK" UnitType="NONE"/>
         <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitClassType="UNITCLASS_MODERN_ARMOR" UnitType="NONE"/>
@@ -29,6 +30,6 @@
         <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitClassType="UNITCLASS_GUIDED_MISSILE" UnitType="NONE"/>
         <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitClassType="UNITCLASS_NUCLEAR_DEVICE" UnitType="NONE"/>
         <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitClassType="UNITCLASS_THERMONUCLEAR_DEVICE" UnitType="NONE"/>
-    </Civilization_UnitClassOverrides>
+    </CivilizationUnitClassOverrides>
 
 </GameInfo>

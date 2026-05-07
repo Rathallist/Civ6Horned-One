@@ -32,6 +32,8 @@
 
     <IconDefinitions>
         <Row Name="ICON_CIVILIZATION_HORNED_ONE" Atlas="ICON_ATLAS_HORNED_ONE" Index="0"/>
+        <Row Name="ICON_LEADER_HORN_MOTHER" Atlas="ICON_ATLAS_HORNED_ONE" Index="1"/>
+        <Row Name="ICON_LEADER_HORN_MOTHER_BACKGROUND" Atlas="ICON_ATLAS_HORNED_ONE" Index="2"/>
     </IconDefinitions>
 
 
@@ -43,6 +45,16 @@
         <Row CivilizationType="CIVILIZATION_HORNED_ONE"
              TraitType="TRAIT_CIVILIZATION_HORNED_ONE"/>
     </CivilizationTraits>
+
+
+    <!-- ========================================================= -->
+    <!--  ATTACHEMENT LEADER                                       -->
+    <!-- ========================================================= -->
+
+    <CivilizationLeaders>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE"
+             LeaderType="LEADER_HORN_MOTHER"/>
+    </CivilizationLeaders>
 
 
     <!-- ========================================================= -->
@@ -138,7 +150,7 @@
 
 
     <!-- ========================================================= -->
-    <!--  AUDIO (OPTIONNEL MAIS PROPRE)                            -->
+    <!--  AUDIO                                                    -->
     <!-- ========================================================= -->
 
     <CivilizationAudio>

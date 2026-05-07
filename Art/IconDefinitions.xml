@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameInfo>
 
-    <!-- ========================================================= -->
-    <!--  IDENTITÉ CIVILISATION + LEADER                           -->
-    <!-- ========================================================= -->
-
     <IconDefinitions>
-        <Row Name="ICON_CIVILIZATION_HORNED_ONE" Atlas="ICON_ATLAS_HORNED_ONE" Index="0"/>
-        <Row Name="ICON_LEADER_HORN_MOTHER"      Atlas="ICON_ATLAS_HORNED_ONE" Index="1"/>
 
-    <!-- ========================================================= -->
-    <!--  ONI MELEE LINE (8 unités)                                -->
-    <!-- ========================================================= -->
+        <!-- IDENTITÉ CIVILISATION + LEADER -->
+        <Row Name="ICON_CIVILIZATION_HORNED_ONE"      Atlas="ICON_ATLAS_HORNED_ONE" Index="0"/>
+        <Row Name="ICON_LEADER_HORN_MOTHER"            Atlas="ICON_ATLAS_HORNED_ONE" Index="1"/>
+        <!-- Background utilisé dans le menu de sélection de leader -->
+        <Row Name="ICON_LEADER_HORN_MOTHER_BACKGROUND" Atlas="ICON_ATLAS_HORNED_ONE" Index="1"/>
 
+        <!-- ONI MELEE LINE -->
         <Row Name="ICON_UNIT_ONI_MELEE_01" Atlas="ICON_ATLAS_HORNED_ONE" Index="2"/>
         <Row Name="ICON_UNIT_ONI_MELEE_02" Atlas="ICON_ATLAS_HORNED_ONE" Index="3"/>
         <Row Name="ICON_UNIT_ONI_MELEE_03" Atlas="ICON_ATLAS_HORNED_ONE" Index="4"/>
@@ -22,10 +19,7 @@
         <Row Name="ICON_UNIT_ONI_MELEE_07" Atlas="ICON_ATLAS_HORNED_ONE" Index="8"/>
         <Row Name="ICON_UNIT_ONI_MELEE_08" Atlas="ICON_ATLAS_HORNED_ONE" Index="9"/>
 
-    <!-- ========================================================= -->
-    <!--  ONI RANGED LINE (8 unités)                               -->
-    <!-- ========================================================= -->
-
+        <!-- ONI RANGED LINE -->
         <Row Name="ICON_UNIT_ONI_RANGED_01" Atlas="ICON_ATLAS_HORNED_ONE" Index="10"/>
         <Row Name="ICON_UNIT_ONI_RANGED_02" Atlas="ICON_ATLAS_HORNED_ONE" Index="11"/>
         <Row Name="ICON_UNIT_ONI_RANGED_03" Atlas="ICON_ATLAS_HORNED_ONE" Index="12"/>
@@ -35,10 +29,7 @@
         <Row Name="ICON_UNIT_ONI_RANGED_07" Atlas="ICON_ATLAS_HORNED_ONE" Index="16"/>
         <Row Name="ICON_UNIT_ONI_RANGED_08" Atlas="ICON_ATLAS_HORNED_ONE" Index="17"/>
 
-    <!-- ========================================================= -->
-    <!--  ONI HEAVY LINE (8 unités)                                -->
-    <!-- ========================================================= -->
-
+        <!-- ONI HEAVY LINE -->
         <Row Name="ICON_UNIT_ONI_HEAVY_01" Atlas="ICON_ATLAS_HORNED_ONE" Index="18"/>
         <Row Name="ICON_UNIT_ONI_HEAVY_02" Atlas="ICON_ATLAS_HORNED_ONE" Index="19"/>
         <Row Name="ICON_UNIT_ONI_HEAVY_03" Atlas="ICON_ATLAS_HORNED_ONE" Index="20"/>
@@ -48,18 +39,12 @@
         <Row Name="ICON_UNIT_ONI_HEAVY_07" Atlas="ICON_ATLAS_HORNED_ONE" Index="24"/>
         <Row Name="ICON_UNIT_ONI_HEAVY_08" Atlas="ICON_ATLAS_HORNED_ONE" Index="25"/>
 
-    <!-- ========================================================= -->
-    <!--  UNITÉ SPÉCIALE : HORN MOTHER                             -->
-    <!-- ========================================================= -->
+        <!-- UNITÉ SPÉCIALE -->
+        <Row Name="ICON_UNIT_HORN_MOTHER"             Atlas="ICON_ATLAS_HORNED_ONE" Index="26"/>
 
-        <Row Name="ICON_UNIT_HORN_MOTHER" Atlas="ICON_ATLAS_HORNED_ONE" Index="26"/>
-
-    <!-- ========================================================= -->
-    <!--  BÂTIMENT + AMÉLIORATION                                  -->
-    <!-- ========================================================= -->
-
-        <Row Name="ICON_BUILDING_HERD_TREE"        Atlas="ICON_ATLAS_HORNED_ONE" Index="27"/>
-        <Row Name="ICON_IMPROVEMENT_NESTING_GROUND" Atlas="ICON_ATLAS_HORNED_ONE" Index="28"/>
+        <!-- BÂTIMENT + AMÉLIORATION -->
+        <Row Name="ICON_BUILDING_HERD_TREE"           Atlas="ICON_ATLAS_HORNED_ONE" Index="27"/>
+        <Row Name="ICON_IMPROVEMENT_NESTING_GROUND"   Atlas="ICON_ATLAS_HORNED_ONE" Index="28"/>
 
     </IconDefinitions>
 

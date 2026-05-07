@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+
+    <!-- ========================================================= -->
+    <!--  CONFIGURATION FRONTEND : THE HORNED ONE                  -->
+    <!--  Ce fichier enregistre la civilisation dans la liste       -->
+    <!--  des joueurs disponibles au moment de créer une partie.   -->
+    <!-- ========================================================= -->
+
     <Players>
-        <Row>
-            <Domain>Players:Expansion2_Players</Domain>
-            <CivilizationType>CIVILIZATION_HORNED_ONE</CivilizationType>
-            <LeaderType>LEADER_HORN_MOTHER</LeaderType>
-            <LeaderName>LOC_LEADER_HORN_MOTHER_NAME</LeaderName>
-            <CivilizationName>LOC_CIVILIZATION_HORNED_ONE_NAME</CivilizationName>
-            <Portrait>ICON_LEADER_HORN_MOTHER</Portrait>
-            <PortraitBackground>ICON_LEADER_HORN_MOTHER_BACKGROUND</PortraitBackground>
-            <LeaderAbilityName>LOC_TRAIT_LEADER_HORN_MOTHER_NAME</LeaderAbilityName>
-            <LeaderAbilityDescription>LOC_TRAIT_LEADER_HORN_MOTHER_DESCRIPTION</LeaderAbilityDescription>
-            <CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_HORNED_ONE_NAME</CivilizationAbilityName>
-            <CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_HORNED_ONE_DESCRIPTION</CivilizationAbilityDescription>
-        </Row>
+        <Row CivilizationType="CIVILIZATION_HORNED_ONE"
+             LeaderType="LEADER_HORN_MOTHER"
+             Domain="Players:Expansion2_Players"
+             CivilizationName="LOC_CIVILIZATION_HORNED_ONE_NAME"
+             LeaderName="LOC_LEADER_HORN_MOTHER_NAME"
+             CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_HORNED_ONE_NAME"
+             CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_HORNED_ONE_DESCRIPTION"
+             LeaderAbilityName="LOC_TRAIT_LEADER_GOOD_EGG_NAME"
+             LeaderAbilityDescription="LOC_TRAIT_LEADER_GOOD_EGG_DESCRIPTION"
+             Portrait="ICON_LEADER_HORN_MOTHER"
+             PortraitBackground="ICON_LEADER_HORN_MOTHER_BACKGROUND"
+             OverrideName="0"/>
     </Players>
+
 </GameData>

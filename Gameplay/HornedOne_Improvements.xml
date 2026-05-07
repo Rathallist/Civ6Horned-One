@@ -14,7 +14,6 @@
              PlunderAmount="25"
              Housing="2"
              SameAdjacentValid="false"
-             TilesPerCity="0"
              Icon="ICON_IMPROVEMENT_NESTING_GROUND"/>
     </Improvements>
 
@@ -40,7 +39,7 @@
         <Row ImprovementType="IMPROVEMENT_NESTING_GROUND" FeatureType="FEATURE_JUNGLE"/>
     </Improvement_ValidFeatures>
 
-    <!-- Technologie requise -->
+    <!-- Civic requis -->
     <ImprovementPrereqs>
         <Row ImprovementType="IMPROVEMENT_NESTING_GROUND" PrereqCivic="CIVIC_EARLY_EMPIRE"/>
     </ImprovementPrereqs>
@@ -51,49 +50,13 @@
     <!-- ========================================================= -->
 
     <Improvement_YieldChanges>
-        <Row ImprovementType="IMPROVEMENT_NESTING_GROUND" YieldType="YIELD_FOOD" YieldChange="1"/>
+        <Row ImprovementType="IMPROVEMENT_NESTING_GROUND" YieldType="YIELD_FOOD" YieldChange="2"/>
         <Row ImprovementType="IMPROVEMENT_NESTING_GROUND" YieldType="YIELD_CULTURE" YieldChange="1"/>
     </Improvement_YieldChanges>
 
-
-    <!-- ========================================================= -->
-    <!--  BONUS : +1 FOOD SI ADJACENT À UNE MÈRE-CORNE             -->
-    <!-- ========================================================= -->
-
-    <ImprovementModifiers>
-        <Row ImprovementType="IMPROVEMENT_NESTING_GROUND" ModifierId="NESTING_GROUND_ADJACENT_MOTHER"/>
-    </ImprovementModifiers>
-
-    <Modifiers>
-        <Row ModifierId="NESTING_GROUND_ADJACENT_MOTHER"
-             ModifierType="MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELD_BASED_ON_ADJACENT_UNIT"/>
-    </Modifiers>
-
-    <ModifierArguments>
-        <Row ModifierId="NESTING_GROUND_ADJACENT_MOTHER" Name="YieldType" Value="YIELD_FOOD"/>
-        <Row ModifierId="NESTING_GROUND_ADJACENT_MOTHER" Name="Amount" Value="1"/>
-        <Row ModifierId="NESTING_GROUND_ADJACENT_MOTHER" Name="UnitType" Value="UNIT_HORN_MOTHER"/>
-    </ModifierArguments>
-
-
-    <!-- ========================================================= -->
-    <!--  BONUS : +1 CULTURE SI ADJACENT À UN HERD TREE            -->
-    <!-- ========================================================= -->
-
-    <ImprovementModifiers>
-        <Row ImprovementType="IMPROVEMENT_NESTING_GROUND" ModifierId="NESTING_GROUND_ADJACENT_HERD_TREE"/>
-    </ImprovementModifiers>
-
-    <Modifiers>
-        <Row ModifierId="NESTING_GROUND_ADJACENT_HERD_TREE"
-             ModifierType="MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELD_BASED_ON_ADJACENT_BUILDING"/>
-    </Modifiers>
-
-    <ModifierArguments>
-        <Row ModifierId="NESTING_GROUND_ADJACENT_HERD_TREE" Name="YieldType" Value="YIELD_CULTURE"/>
-        <Row ModifierId="NESTING_GROUND_ADJACENT_HERD_TREE" Name="Amount" Value="1"/>
-        <Row ModifierId="NESTING_GROUND_ADJACENT_HERD_TREE" Name="BuildingType" Value="BUILDING_HERD_TREE"/>
-    </ModifierArguments>
+    <!-- NOTE: Les ModifierTypes basés sur unités/bâtiments adjacents à une amélioration     -->
+    <!-- n'existent pas dans le moteur de base de Civ6. Les bonus adjacents sont supprimés   -->
+    <!-- pour éviter le crash. Le Housing=2 et les yields de base restent fonctionnels.      -->
 
 
     <!-- ========================================================= -->
@@ -103,7 +66,7 @@
     <IconDefinitions>
         <Row Name="ICON_IMPROVEMENT_NESTING_GROUND"
              Atlas="ICON_ATLAS_HORNED_ONE"
-             Index="5"/>
+             Index="28"/>
     </IconDefinitions>
 
 </GameInfo>

@@ -10,7 +10,7 @@
              Name="LOC_BUILDING_HERD_TREE_NAME"
              Description="LOC_BUILDING_HERD_TREE_DESCRIPTION"
              PrereqDistrict="DISTRICT_THEATER"
-             PrereqTech="TECH_DRAMA_POETRY"
+             PrereqCivic="CIVIC_DRAMA_POETRY"
              Cost="180"
              Maintenance="3"
              Housing="4"
@@ -21,7 +21,7 @@
              AdvisorType="ADVISOR_CULTURE"/>
     </Buildings>
 
-    <!-- Remplace l’Amphithéâtre -->
+    <!-- Remplace l'Amphithéâtre -->
     <BuildingReplaces>
         <Row CivUniqueBuildingType="BUILDING_HERD_TREE"
              ReplacesBuildingType="BUILDING_AMPHITHEATER"/>
@@ -29,11 +29,12 @@
 
 
     <!-- ========================================================= -->
-    <!--  YIELDS DE BASE (comme l’Amphithéâtre)                    -->
+    <!--  YIELDS DE BASE                                           -->
     <!-- ========================================================= -->
 
     <Building_YieldChanges>
         <Row BuildingType="BUILDING_HERD_TREE" YieldType="YIELD_CULTURE" YieldChange="2"/>
+        <Row BuildingType="BUILDING_HERD_TREE" YieldType="YIELD_FOOD" YieldChange="1"/>
     </Building_YieldChanges>
 
 
@@ -53,28 +54,7 @@
 
     <ModifierArguments>
         <Row ModifierId="HERD_TREE_CULTURE_PER_POP" Name="YieldType" Value="YIELD_CULTURE"/>
-        <Row ModifierId="HERD_TREE_CULTURE_PER_POP" Name="Amount" Value="0.33"/> <!-- 1 Culture par 3 pop -->
-    </ModifierArguments>
-
-
-    <!-- ========================================================= -->
-    <!--  BONUS OPTIONNEL : +1 Culture si adjacent à Nesting Ground -->
-    <!-- ========================================================= -->
-
-    <BuildingModifiers>
-        <Row BuildingType="BUILDING_HERD_TREE"
-             ModifierId="HERD_TREE_ADJACENCY_NESTING"/>
-    </BuildingModifiers>
-
-    <Modifiers>
-        <Row ModifierId="HERD_TREE_ADJACENCY_NESTING"
-             ModifierType="MODIFIER_SINGLE_CITY_ADJUST_BUILDING_YIELD_CHANGE_PER_IMPROVEMENT"/>
-    </Modifiers>
-
-    <ModifierArguments>
-        <Row ModifierId="HERD_TREE_ADJACENCY_NESTING" Name="ImprovementType" Value="IMPROVEMENT_NESTING_GROUND"/>
-        <Row ModifierId="HERD_TREE_ADJACENCY_NESTING" Name="YieldType" Value="YIELD_CULTURE"/>
-        <Row ModifierId="HERD_TREE_ADJACENCY_NESTING" Name="Amount" Value="1"/>
+        <Row ModifierId="HERD_TREE_CULTURE_PER_POP" Name="Amount" Value="0.33"/>
     </ModifierArguments>
 
 
@@ -85,7 +65,7 @@
     <IconDefinitions>
         <Row Name="ICON_BUILDING_HERD_TREE"
              Atlas="ICON_ATLAS_HORNED_ONE"
-             Index="4"/>
+             Index="27"/>
     </IconDefinitions>
 
 </GameInfo>

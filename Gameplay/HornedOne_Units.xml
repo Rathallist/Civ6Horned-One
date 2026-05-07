@@ -70,15 +70,12 @@
         <Row UnitType="UNIT_ONI_MELEE_05" PrereqTech="TECH_REPLACEABLE_PARTS"/>
     </UnitPrereqs>
 
-    <!-- MODERN -->
+    <!-- MODERN — remplace INFANTRY avancé (pas Mechanized qui est désactivé) -->
     <Units>
         <Row UnitType="UNIT_ONI_MELEE_06" Name="LOC_UNIT_ONI_MELEE_06_NAME" Description="LOC_UNIT_ONI_MELEE_06_DESCRIPTION"
              BaseMoves="2" Cost="260" Maintenance="4" Combat="70" Domain="DOMAIN_LAND"
              PromotionClass="PROMOTION_CLASS_MELEE" FormationClass="FORMATION_CLASS_LAND_COMBAT"/>
     </Units>
-    <UnitReplaces>
-        <Row CivUniqueUnitType="UNIT_ONI_MELEE_06" ReplacesUnitType="UNIT_MECHANIZED_INFANTRY"/>
-    </UnitReplaces>
     <UnitPrereqs>
         <Row UnitType="UNIT_ONI_MELEE_06" PrereqTech="TECH_COMBINED_ARMS"/>
     </UnitPrereqs>
@@ -89,9 +86,6 @@
              BaseMoves="2" Cost="320" Maintenance="4" Combat="80" Domain="DOMAIN_LAND"
              PromotionClass="PROMOTION_CLASS_MELEE" FormationClass="FORMATION_CLASS_LAND_COMBAT"/>
     </Units>
-    <UnitReplaces>
-        <Row CivUniqueUnitType="UNIT_ONI_MELEE_07" ReplacesUnitType="UNIT_GIANT_DEATH_ROBOT"/>
-    </UnitReplaces>
     <UnitPrereqs>
         <Row UnitType="UNIT_ONI_MELEE_07" PrereqTech="TECH_NUCLEAR_FUSION"/>
     </UnitPrereqs>
@@ -102,13 +96,9 @@
              BaseMoves="2" Cost="380" Maintenance="5" Combat="90" Domain="DOMAIN_LAND"
              PromotionClass="PROMOTION_CLASS_MELEE" FormationClass="FORMATION_CLASS_LAND_COMBAT"/>
     </Units>
-    <UnitReplaces>
-        <Row CivUniqueUnitType="UNIT_ONI_MELEE_08" ReplacesUnitType="UNIT_GIANT_DEATH_ROBOT"/>
-    </UnitReplaces>
     <UnitPrereqs>
         <Row UnitType="UNIT_ONI_MELEE_08" PrereqTech="TECH_FUTURE_TECH"/>
     </UnitPrereqs>
-
 
 
     <!-- ========================================================= -->
@@ -185,16 +175,13 @@
         <Row UnitType="UNIT_ONI_RANGED_05" PrereqTech="TECH_RIFLING"/>
     </UnitPrereqs>
 
-    <!-- MODERN -->
+    <!-- MODERN — pas de Replace car UNIT_MACHINE_GUN déjà pris -->
     <Units>
         <Row UnitType="UNIT_ONI_RANGED_06" Name="LOC_UNIT_ONI_RANGED_06_NAME" Description="LOC_UNIT_ONI_RANGED_06_DESCRIPTION"
              BaseMoves="2" Cost="230" Maintenance="3" RangedCombat="65" Combat="30" Range="2"
              Domain="DOMAIN_LAND" PromotionClass="PROMOTION_CLASS_RANGED"
              FormationClass="FORMATION_CLASS_LAND_RANGED"/>
     </Units>
-    <UnitReplaces>
-        <Row CivUniqueUnitType="UNIT_ONI_RANGED_06" ReplacesUnitType="UNIT_MACHINE_GUN"/>
-    </UnitReplaces>
     <UnitPrereqs>
         <Row UnitType="UNIT_ONI_RANGED_06" PrereqTech="TECH_COMBUSTION"/>
     </UnitPrereqs>
@@ -206,9 +193,6 @@
              Domain="DOMAIN_LAND" PromotionClass="PROMOTION_CLASS_RANGED"
              FormationClass="FORMATION_CLASS_LAND_RANGED"/>
     </Units>
-    <UnitReplaces>
-        <Row CivUniqueUnitType="UNIT_ONI_RANGED_07" ReplacesUnitType="UNIT_MACHINE_GUN"/>
-    </UnitReplaces>
     <UnitPrereqs>
         <Row UnitType="UNIT_ONI_RANGED_07" PrereqTech="TECH_ADVANCED_BALLISTICS"/>
     </UnitPrereqs>
@@ -220,13 +204,9 @@
              Domain="DOMAIN_LAND" PromotionClass="PROMOTION_CLASS_RANGED"
              FormationClass="FORMATION_CLASS_LAND_RANGED"/>
     </Units>
-    <UnitReplaces>
-        <Row CivUniqueUnitType="UNIT_ONI_RANGED_08" ReplacesUnitType="UNIT_MACHINE_GUN"/>
-    </UnitReplaces>
     <UnitPrereqs>
         <Row UnitType="UNIT_ONI_RANGED_08" PrereqTech="TECH_FUTURE_TECH"/>
     </UnitPrereqs>
-
 
 
     <!-- ========================================================= -->
@@ -285,7 +265,7 @@
         <Row UnitType="UNIT_ONI_HEAVY_04" PrereqTech="TECH_MILITARY_SCIENCE"/>
     </UnitPrereqs>
 
-    <!-- INDUSTRIAL -->
+    <!-- INDUSTRIAL — remplace Tank -->
     <Units>
         <Row UnitType="UNIT_ONI_HEAVY_05" Name="LOC_UNIT_ONI_HEAVY_05_NAME" Description="LOC_UNIT_ONI_HEAVY_05_DESCRIPTION"
              BaseMoves="4" Cost="220" Maintenance="3" Combat="63" Domain="DOMAIN_LAND"
@@ -298,15 +278,12 @@
         <Row UnitType="UNIT_ONI_HEAVY_05" PrereqTech="TECH_COMBUSTION"/>
     </UnitPrereqs>
 
-        <!-- MODERN -->
+    <!-- MODERN — pas de Replace (Tank/Modern Armor désactivés) -->
     <Units>
         <Row UnitType="UNIT_ONI_HEAVY_06" Name="LOC_UNIT_ONI_HEAVY_06_NAME" Description="LOC_UNIT_ONI_HEAVY_06_DESCRIPTION"
              BaseMoves="4" Cost="270" Maintenance="4" Combat="73" Domain="DOMAIN_LAND"
              PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" FormationClass="FORMATION_CLASS_LAND_COMBAT"/>
     </Units>
-    <UnitReplaces>
-        <Row CivUniqueUnitType="UNIT_ONI_HEAVY_06" ReplacesUnitType="UNIT_MODERN_ARMOR"/>
-    </UnitReplaces>
     <UnitPrereqs>
         <Row UnitType="UNIT_ONI_HEAVY_06" PrereqTech="TECH_SYNTHETIC_MATERIALS"/>
     </UnitPrereqs>
@@ -317,9 +294,6 @@
              BaseMoves="4" Cost="320" Maintenance="4" Combat="83" Domain="DOMAIN_LAND"
              PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" FormationClass="FORMATION_CLASS_LAND_COMBAT"/>
     </Units>
-    <UnitReplaces>
-        <Row CivUniqueUnitType="UNIT_ONI_HEAVY_07" ReplacesUnitType="UNIT_MODERN_ARMOR"/>
-    </UnitReplaces>
     <UnitPrereqs>
         <Row UnitType="UNIT_ONI_HEAVY_07" PrereqTech="TECH_COMPOSITES"/>
     </UnitPrereqs>
@@ -330,15 +304,10 @@
              BaseMoves="4" Cost="370" Maintenance="5" Combat="93" Domain="DOMAIN_LAND"
              PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" FormationClass="FORMATION_CLASS_LAND_COMBAT"/>
     </Units>
-    <UnitReplaces>
-        <Row CivUniqueUnitType="UNIT_ONI_HEAVY_08" ReplacesUnitType="UNIT_MODERN_ARMOR"/>
-    </UnitReplaces>
     <UnitPrereqs>
         <Row UnitType="UNIT_ONI_HEAVY_08" PrereqTech="TECH_FUTURE_TECH"/>
     </UnitPrereqs>
-    
 
-    
 
     <!-- ========================================================= -->
     <!--  UNITÉ SPÉCIALE : HORN MOTHER                             -->
@@ -365,28 +334,21 @@
              MandatoryObsoleteTech="TECH_COMBUSTION"/>
     </Units>
 
-
-    <!-- ========================================================= -->
-    <!--  LIMITE PAR VILLE (PROGRESSIVE AVEC LES CIVICS)           -->
-    <!-- ========================================================= -->
-
     <UnitLimits>
         <Row UnitType="UNIT_HORN_MOTHER" MaxPlayerInstances="999" MaxPlayerCityInstances="1"/>
     </UnitLimits>
 
+    <!-- Bonus de limite par civic -->
     <Modifiers>
-        <!-- +1 Horn Mother par ville avec State Workforce -->
-        <Row ModifierId="HORN_MOTHER_LIMIT_2" ModifierType="MODIFIER_PLAYER_ADJUST_UNIT_MAX_PER_CITY"/>
-        <!-- +1 Horn Mother par ville avec Guilds -->
-        <Row ModifierId="HORN_MOTHER_LIMIT_3" ModifierType="MODIFIER_PLAYER_ADJUST_UNIT_MAX_PER_CITY"/>
+        <Row ModifierId="HORN_MOTHER_LIMIT_2" ModifierType="MODIFIER_PLAYER_ADJUST_UNIT_MAX_INSTANCES"/>
+        <Row ModifierId="HORN_MOTHER_LIMIT_3" ModifierType="MODIFIER_PLAYER_ADJUST_UNIT_MAX_INSTANCES"/>
     </Modifiers>
 
     <ModifierArguments>
         <Row ModifierId="HORN_MOTHER_LIMIT_2" Name="UnitType" Value="UNIT_HORN_MOTHER"/>
-        <Row ModifierId="HORN_MOTHER_LIMIT_2" Name="Amount" Value="1"/>
-
+        <Row ModifierId="HORN_MOTHER_LIMIT_2" Name="Amount" Value="3"/>
         <Row ModifierId="HORN_MOTHER_LIMIT_3" Name="UnitType" Value="UNIT_HORN_MOTHER"/>
-        <Row ModifierId="HORN_MOTHER_LIMIT_3" Name="Amount" Value="1"/>
+        <Row ModifierId="HORN_MOTHER_LIMIT_3" Name="Amount" Value="6"/>
     </ModifierArguments>
 
     <CivicModifiers>
@@ -396,40 +358,11 @@
 
 
     <!-- ========================================================= -->
-    <!--  BONUS À LA VILLE OÙ ELLE EST STATIONNÉE                  -->
-    <!-- ========================================================= -->
-
-    <UnitAbilities>
-        <Row UnitAbilityType="ABILITY_HORN_MOTHER_AURA"
-             Name="LOC_ABILITY_HORN_MOTHER_AURA_NAME"
-             Description="LOC_ABILITY_HORN_MOTHER_AURA_DESCRIPTION"/>
-    </UnitAbilities>
-
-    <UnitAbilityModifiers>
-        <Row UnitAbilityType="ABILITY_HORN_MOTHER_AURA" ModifierId="HORN_MOTHER_CITY_GROWTH"/>
-        <Row UnitAbilityType="ABILITY_HORN_MOTHER_AURA" ModifierId="HORN_MOTHER_CITY_HOUSING"/>
-        <Row UnitAbilityType="ABILITY_HORN_MOTHER_AURA" ModifierId="HORN_MOTHER_CITY_AMENITY"/>
-    </UnitAbilityModifiers>
-
-    <Modifiers>
-        <Row ModifierId="HORN_MOTHER_CITY_GROWTH" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_GROWTH"/>
-        <Row ModifierId="HORN_MOTHER_CITY_HOUSING" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_HOUSING"/>
-        <Row ModifierId="HORN_MOTHER_CITY_AMENITY" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_AMENITIES_FROM_CITY"/>
-    </Modifiers>
-
-    <ModifierArguments>
-        <Row ModifierId="HORN_MOTHER_CITY_GROWTH" Name="Amount" Value="0.20"/> <!-- +20% Growth -->
-        <Row ModifierId="HORN_MOTHER_CITY_HOUSING" Name="Amount" Value="1"/>   <!-- +1 Housing -->
-        <Row ModifierId="HORN_MOTHER_CITY_AMENITY" Name="Amount" Value="1"/>   <!-- +1 Amenity -->
-    </ModifierArguments>
-
-
-    <!-- ========================================================= -->
     <!--  ICÔNE                                                    -->
     <!-- ========================================================= -->
 
     <IconDefinitions>
-        <Row Name="ICON_UNIT_HORN_MOTHER" Atlas="ICON_ATLAS_HORNED_ONE" Index="25"/>
+        <Row Name="ICON_UNIT_HORN_MOTHER" Atlas="ICON_ATLAS_HORNED_ONE" Index="26"/>
     </IconDefinitions>
 
 </GameInfo>
