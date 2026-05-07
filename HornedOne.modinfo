@@ -6,7 +6,7 @@
         <Description>Adds a new Civilization led by Horn Mother.</Description>
         <Teaser>The Horned One rises.</Teaser>
         <Authors>altharos</Authors>
-        <SpecialThanks>Rathallist</SpecialThanks>
+        <SpecialThanks>Dan Kin</SpecialThanks>
         <CompatibleVersions>2.0</CompatibleVersions>
     </Properties>
 
@@ -48,6 +48,7 @@
         <UpdateArt id="Art">
             <File>Art/IconDefinitions.xml</File>
             <File>Art/IconAtlas.xml</File>
+            <File>Art/Icons/HornedOne_Atlas.dds</File>
         </UpdateArt>
 
     </InGameActions>
@@ -75,14 +76,15 @@
         <!-- Art -->
         <File>Art/IconDefinitions.xml</File>
         <File>Art/IconAtlas.xml</File>
-        <File>Art/Icons/CivIcon.dds</File>
-        <File>Art/Icons/LeaderIcon.dds</File>
-        <File>Art/Icons/UnitIcon.dds</File>
-        <File>Art/Icons/BuildingIcon.dds</File>
-        <File>Art/Icons/ImprovementIcon.dds</File>
         <File>Art/Icons/HornedOne_Atlas.dds</File>
 
 
     </Files>
+
+    <FrontEndActions>
+    <UpdateDatabase>
+        <File></File>
+    </UpdateDatabase>
+</FrontEndActions>
 
 </Mod>
