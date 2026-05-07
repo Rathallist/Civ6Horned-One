@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <Players>
+        <Row>
+            <Domain>Players:Expansion2_Players</Domain>
+            <CivilizationType>CIVILIZATION_HORNED_ONE</CivilizationType>
+            <LeaderType>LEADER_HORN_MOTHER</LeaderType>
+            <LeaderName>LOC_LEADER_HORN_MOTHER_NAME</LeaderName>
+            <CivilizationName>LOC_CIVILIZATION_HORNED_ONE_NAME</CivilizationName>
+            <Portrait>ICON_LEADER_HORN_MOTHER</Portrait>
+            <PortraitBackground>ICON_LEADER_HORN_MOTHER_BACKGROUND</PortraitBackground>
+            <LeaderAbilityName>LOC_TRAIT_LEADER_HORN_MOTHER_NAME</LeaderAbilityName>
+            <LeaderAbilityDescription>LOC_TRAIT_LEADER_HORN_MOTHER_DESCRIPTION</LeaderAbilityDescription>
+            <CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_HORNED_ONE_NAME</CivilizationAbilityName>
+            <CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_HORNED_ONE_DESCRIPTION</CivilizationAbilityDescription>
+        </Row>
+    </Players>
+</GameData>

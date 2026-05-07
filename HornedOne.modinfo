@@ -23,19 +23,17 @@
     <!-- ========================================================= -->
 
     <FrontEndActions>
-
-        <!-- Textes pour l’écran de sélection -->
-        <UpdateText id="FrontEndText">
+        <UpdateDatabase id="Config">
+            <File>Config/HornedOne_Config.xml</File>
+        </UpdateDatabase>
+        <UpdateText id="Text">
             <File>Text/Text_EN.xml</File>
             <File>Text/Text_FR.xml</File>
         </UpdateText>
-
-        <!-- CRITIQUE : le .dep doit être chargé au FrontEnd -->
         <UpdateArt id="ArtFrontEnd">
             <File>Art/HornedOne.dep</File>
         </UpdateArt>
-
-    </FrontEndActions>
+    </FrontEndActions>     
 
     <!-- ========================================================= -->
     <!--  IN-GAME ACTIONS                                           -->
@@ -106,6 +104,8 @@
         <!-- CRITIQUE : le .dep doit être listé ici -->
         <File>Art/HornedOne.dep</File>
 
+        <File>Config/HornedOne_Config.xml</File>
+        
     </Files>
 
 </Mod>
