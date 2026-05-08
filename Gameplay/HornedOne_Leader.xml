@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameInfo>
 
-    <!-- ========================================================= -->
-    <!--  LEADER : HORN MOTHER                                     -->
-    <!-- ========================================================= -->
-
     <Leaders>
         <Row LeaderType="LEADER_HORN_MOTHER"
              Name="LOC_LEADER_HORN_MOTHER_NAME"
              InheritFrom="LEADER_DEFAULT"/>
     </Leaders>
-
-
-    <!-- ========================================================= -->
-    <!--  AGENDA : MOTHER OF MANY                                  -->
-    <!-- ========================================================= -->
 
     <Agendas>
         <Row AgendaType="AGENDA_HORN_MOTHER"
@@ -27,11 +18,9 @@
              AgendaType="AGENDA_HORN_MOTHER"/>
     </HistoricalAgendas>
 
-
-    <!-- AIME : CIVILISATIONS AVEC FORTE CROISSANCE -->
+    <!-- Likes civilizations with high growth -->
     <AgendaTraits>
-        <Row AgendaType="AGENDA_HORN_MOTHER"
-             TraitType="TRAIT_AGENDA_HORN_MOTHER_LIKES_GROWTH"/>
+        <Row AgendaType="AGENDA_HORN_MOTHER" TraitType="TRAIT_AGENDA_HORN_MOTHER_LIKES_GROWTH"/>
     </AgendaTraits>
 
     <Traits>
@@ -39,13 +28,11 @@
     </Traits>
 
     <TraitModifiers>
-        <Row TraitType="TRAIT_AGENDA_HORN_MOTHER_LIKES_GROWTH"
-             ModifierId="HORN_MOTHER_LIKES_GROWTH"/>
+        <Row TraitType="TRAIT_AGENDA_HORN_MOTHER_LIKES_GROWTH" ModifierId="HORN_MOTHER_LIKES_GROWTH"/>
     </TraitModifiers>
 
     <Modifiers>
-        <Row ModifierId="HORN_MOTHER_LIKES_GROWTH"
-             ModifierType="MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER"/>
+        <Row ModifierId="HORN_MOTHER_LIKES_GROWTH" ModifierType="MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER"/>
     </Modifiers>
 
     <ModifierArguments>
@@ -54,11 +41,9 @@
         <Row ModifierId="HORN_MOTHER_LIKES_GROWTH" Name="Amount" Value="6"/>
     </ModifierArguments>
 
-
-    <!-- DÉTESTE : CIVILISATIONS AVEC FAIBLE CROISSANCE -->
+    <!-- Dislikes civilizations with low growth -->
     <AgendaTraits>
-        <Row AgendaType="AGENDA_HORN_MOTHER"
-             TraitType="TRAIT_AGENDA_HORN_MOTHER_HATES_STAGNATION"/>
+        <Row AgendaType="AGENDA_HORN_MOTHER" TraitType="TRAIT_AGENDA_HORN_MOTHER_HATES_STAGNATION"/>
     </AgendaTraits>
 
     <Traits>
@@ -66,13 +51,11 @@
     </Traits>
 
     <TraitModifiers>
-        <Row TraitType="TRAIT_AGENDA_HORN_MOTHER_HATES_STAGNATION"
-             ModifierId="HORN_MOTHER_HATES_STAGNATION"/>
+        <Row TraitType="TRAIT_AGENDA_HORN_MOTHER_HATES_STAGNATION" ModifierId="HORN_MOTHER_HATES_STAGNATION"/>
     </TraitModifiers>
 
     <Modifiers>
-        <Row ModifierId="HORN_MOTHER_HATES_STAGNATION"
-             ModifierType="MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER"/>
+        <Row ModifierId="HORN_MOTHER_HATES_STAGNATION" ModifierType="MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER"/>
     </Modifiers>
 
     <ModifierArguments>
@@ -80,19 +63,5 @@
         <Row ModifierId="HORN_MOTHER_HATES_STAGNATION" Name="SimpleModifierDescription" Value="LOC_DIPLO_MODIFIER_HORN_MOTHER_HATES_STAGNATION"/>
         <Row ModifierId="HORN_MOTHER_HATES_STAGNATION" Name="Amount" Value="-8"/>
     </ModifierArguments>
-
-
-    <!-- ========================================================= -->
-    <!--  AI BEHAVIOR                                               -->
-    <!-- ========================================================= -->
-
-    <AiFavoredItems>
-        <Row ListType="AIFAVOR_GROWTH" Item="FLAVOR_GROWTH" Value="12"/>
-        <Row ListType="AIFAVOR_GROWTH" Item="FLAVOR_HOUSING" Value="10"/>
-        <Row ListType="AIFAVOR_GROWTH" Item="FLAVOR_FOOD" Value="10"/>
-
-        <Row ListType="AIFAVOR_LIKE" Item="FLAVOR_CITY_LARGE" Value="10"/>
-        <Row ListType="AIFAVOR_DISLIKE" Item="FLAVOR_CITY_SMALL" Value="8"/>
-    </AiFavoredItems>
 
 </GameInfo>

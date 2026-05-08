@@ -12,17 +12,19 @@
         <Row Tag="LOC_CIVILIZATION_HORNED_ONE_ADJECTIVE" Language="en_US">
             <Text>Horned</Text>
         </Row>
-        
-        LOC_CITIZEN_HORNED_ONE_1: Broodling
-        LOC_CITIZEN_HORNED_ONE_2: Nestkeeper
-        LOC_CITIZEN_HORNED_ONE_3: Horned one
-        LOC_CITIZEN_HORNED_ONE_4: Herdspeaker
 
-        LOC_CITY_HORNED_ONE_1: Broodhome
-        LOC_CITY_HORNED_ONE_2: Nestspire
-        LOC_CITY_HORNED_ONE_3: Hornreach
-        LOC_CITY_HORNED_ONE_4: Fertile Coil
-        LOC_CITY_HORNED_ONE_5: Mother’s Rise
+        <!-- CITIZEN NAMES -->
+        <Row Tag="LOC_CITIZEN_HORNED_ONE_1" Language="en_US"><Text>Broodling</Text></Row>
+        <Row Tag="LOC_CITIZEN_HORNED_ONE_2" Language="en_US"><Text>Nestkeeper</Text></Row>
+        <Row Tag="LOC_CITIZEN_HORNED_ONE_3" Language="en_US"><Text>Horned One</Text></Row>
+        <Row Tag="LOC_CITIZEN_HORNED_ONE_4" Language="en_US"><Text>Herdspeaker</Text></Row>
+
+        <!-- CITY NAMES -->
+        <Row Tag="LOC_CITY_HORNED_ONE_1" Language="en_US"><Text>Broodhome</Text></Row>
+        <Row Tag="LOC_CITY_HORNED_ONE_2" Language="en_US"><Text>Nestspire</Text></Row>
+        <Row Tag="LOC_CITY_HORNED_ONE_3" Language="en_US"><Text>Hornreach</Text></Row>
+        <Row Tag="LOC_CITY_HORNED_ONE_4" Language="en_US"><Text>Fertile Coil</Text></Row>
+        <Row Tag="LOC_CITY_HORNED_ONE_5" Language="en_US"><Text>Mother's Rise</Text></Row>
 
         <!-- LEADER -->
         <Row Tag="LOC_LEADER_HORN_MOTHER_NAME" Language="en_US">
@@ -39,201 +41,134 @@
         <Row Tag="LOC_TRAIT_CIVILIZATION_HORNED_ONE_DESCRIPTION" Language="en_US">
             <Text>The Horned One thrive through unity, shared pleasure, and communal strength. Their caste system ensures harmony, purpose, and the well-being of the Herd.</Text>
         </Row>
-
-        <Row Tag="LOC_TRAIT_LEADER_HORN_MOTHER_NAME" Language="en_US">
+        <Row Tag="LOC_TRAIT_LEADER_GOOD_EGG_NAME" Language="en_US">
             <Text>Good Egg</Text>
         </Row>
-
-        <Row Tag="LOC_TRAIT_LEADER_HORN_MOTHER_DESCRIPTION" Language="en_US">
-            <Text>The Horn Mother brings prosperity and good omens to the Herd. Cities grow faster, and the MuscleHorns answer her call with unmatched devotion, granting increased Production toward pre‑Industrial land units.</Text>
+        <Row Tag="LOC_TRAIT_LEADER_GOOD_EGG_DESCRIPTION" Language="en_US">
+            <Text>+15% Growth in all cities. +20% Production toward land units before the Industrial Era.</Text>
         </Row>
 
-
-        <!-- UNIQUE UNIT -->
-        <Row Tag="LOC_UNIT_HORNED_ONE_CHAMPION_NAME" Language="en_US">
-            <Text>Herd Champion</Text>
+        <!-- UNIQUE UNIT: HORN MOTHER -->
+        <Row Tag="LOC_UNIT_HORN_MOTHER_NAME" Language="en_US">
+            <Text>Horn Mother</Text>
         </Row>
-        <Row Tag="LOC_UNIT_HORNED_ONE_CHAMPION_DESCRIPTION" Language="en_US">
-            <Text>Elite warriors of the MuscleHorn caste, composed mostly of Oni. Despite their imposing size, they are obedient and calm, trained from hatching to protect the Herd. Gains strength near friendly cities or Horn Mothers.</Text>
+        <Row Tag="LOC_UNIT_HORN_MOTHER_DESCRIPTION" Language="en_US">
+            <Text>A revered matriarch of the Herd. When stationed in a city, she increases its growth and brings harmony to its people.</Text>
         </Row>
 
+        <!-- UNIQUE BUILDING -->
+        <Row Tag="LOC_BUILDING_HERD_TREE_NAME" Language="en_US">
+            <Text>Herd Tree</Text>
+        </Row>
+        <Row Tag="LOC_BUILDING_HERD_TREE_DESCRIPTION" Language="en_US">
+            <Text>A unique cultural structure that grows with the population. Provides +2 Culture, +1 Housing, 2 Great Writing slots, and +1 Culture per 3 Population. Gains +1 Culture for each adjacent Nesting Ground.</Text>
+        </Row>
+
+        <!-- UNIQUE IMPROVEMENT -->
+        <Row Tag="LOC_IMPROVEMENT_NESTING_GROUND_NAME" Language="en_US">
+            <Text>Nesting Ground</Text>
+        </Row>
+        <Row Tag="LOC_IMPROVEMENT_NESTING_GROUND_DESCRIPTION" Language="en_US">
+            <Text>Sacred nesting grounds where the Herd lays and tends to their eggs. Provides +2 Housing and +1 Food. Gains +1 Food when adjacent to a Horn Mother, and +1 Culture when adjacent to a Herd Tree.</Text>
+        </Row>
+
+        <!-- AGENDA -->
+        <Row Tag="LOC_AGENDA_HORN_MOTHER_NAME" Language="en_US">
+            <Text>Mother of Many</Text>
+        </Row>
+        <Row Tag="LOC_AGENDA_HORN_MOTHER_DESCRIPTION" Language="en_US">
+            <Text>Respects civilizations with strong population growth and disapproves of stagnant ones.</Text>
+        </Row>
+
+        <!-- DIPLOMACY MODIFIERS -->
+        <Row Tag="LOC_DIPLO_MODIFIER_HORN_MOTHER_LIKES_GROWTH" Language="en_US">
+            <Text>Appreciates your growing population.</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_MODIFIER_HORN_MOTHER_HATES_STAGNATION" Language="en_US">
+            <Text>Disapproves of your stagnant population.</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_KUDO_LEADER_HORN_MOTHER_GROWTH" Language="en_US">
+            <Text>Your people multiply with admirable vigor.</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_WARNING_LEADER_HORN_MOTHER_STAGNATION" Language="en_US">
+            <Text>Your cities seem… barren. This concerns me.</Text>
+        </Row>
+
+        <!-- DIPLOMACY LINES -->
+        <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_HORN_MOTHER_ANY" Language="en_US">
+            <Text>The Herd greets you, no-horn. Tread softly—our eggs are precious, and our trust is earned slowly.</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_DECLARE_WAR_LEADER_HORN_MOTHER_ANY" Language="en_US">
+            <Text>You threaten the Herd. Your presence sours the air like a bad egg. We will protect our own.</Text>
+        </Row>
+        <Row Tag="LOC_DIPLO_DEFEAT_LEADER_HORN_MOTHER_ANY" Language="en_US">
+            <Text>The Herd scatters… but the cycle of eggs will begin anew. We will rise again.</Text>
+        </Row>
 
         <!-- CIVILOPEDIA -->
         <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HORNED_ONE_CHAPTER_HISTORY_PARA_2" Language="en_US">
             <Text>The MuscleHorns, a caste of towering Oni, serve as hunters, workers, and protectors. Though capable of crushing wood and stone with their bare hands, they are known for their obedience and gentle discipline within the Herd.</Text>
         </Row>
-
         <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HORNED_ONE_CHAPTER_HISTORY_PARA_3" Language="en_US">
-            <Text>A Horn Mother can live between twenty and twenty‑five years, laying thousands of eggs throughout her life. While many Horn Mothers exist, only one is chosen as Leader, guiding the Herd with charisma and youthful energy.</Text>
+            <Text>A Horn Mother can live between twenty and twenty-five years, laying thousands of eggs throughout her life. While many Horn Mothers exist, only one is chosen as Leader, guiding the Herd with charisma and youthful energy.</Text>
         </Row>
-
-
         <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HORN_MOTHER_CHAPTER_HISTORY_PARA_1" Language="en_US">
             <Text>The Horn Mother is a young matriarch whose charm and energy unite the Herd. She embodies the joy, sensuality, and communal strength of her people, guiding them with warmth rather than fear.</Text>
         </Row>
 
-        <!-- DIPLOMACY -->
-        <Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_HORN_MOTHER_ANY" Language="en_US">
-            <Text>The Herd greets you, no-horn. Tread softly—our eggs are precious, and our trust is earned slowly.</Text>
-        </Row>
-
-        <Row Tag="LOC_DIPLO_DECLARE_WAR_LEADER_HORN_MOTHER_ANY" Language="en_US">
-            <Text>You threaten the Herd. Your presence sours the air like a bad egg. We will protect our own.</Text>
-        </Row>
-
-        <Row Tag="LOC_DIPLO_DEFEAT_LEADER_HORN_MOTHER_ANY" Language="en_US">
-            <Text>The Herd scatters… but the cycle of eggs will begin anew. We will rise again.</Text>
-        </Row>
-
-        LOC_UNIT_MUSCLEHORN_NAME: MuscleHorn
-        LOC_UNIT_MUSCLEHORN_DESCRIPTION: Elite warriors of the MuscleHorn caste, composed mostly of Oni. Despite their imposing size, they are obedient and calm, trained from hatching to protect the Herd. Stronger in friendly territory and near the Horn Mother.
-        LOC_ABILITY_MUSCLEHORN_TERRITORY_NAME: Herd Guardians
-        LOC_ABILITY_MUSCLEHORN_TERRITORY_DESCRIPTION: +5 Combat Strength when fighting in friendly territory.
-        LOC_ABILITY_MUSCLEHORN_LEADER_NAME: Mother’s Presence
-        LOC_ABILITY_MUSCLEHORN_LEADER_DESCRIPTION: +5 Combat Strength when within 2 tiles of the Horn Mother.
-
-        LOC_UNIT_HORN_MOTHER_NAME: Horn Mother
-        LOC_UNIT_HORN_MOTHER_DESCRIPTION: A revered matriarch of the Herd. When stationed in a city, she increases its growth and brings harmony to its people.
-        LOC_ABILITY_HORN_MOTHER_GROWTH_NAME: Blessing of the Eggs
-        LOC_ABILITY_HORN_MOTHER_GROWTH_DESCRIPTION: +20% Growth in the city where the Horn Mother is stationed. Provides +1 Housing and +1 Amenity.
-        LOC_UNIT_HORN_MOTHER_LIMIT_DESCRIPTION: Your Herd can support more Horn Mothers as your cultural traditions evolve.
-
-        LOC_BUILDING_HERD_TREE_NAME: Herd Tree
-        LOC_BUILDING_HERD_TREE_DESCRIPTION: A unique cultural structure that grows with the population. Provides +2 Culture, +1 Housing, 2 Great Writing slots, and +1 Culture per 3 Population. Gains +1 Culture for each adjacent Nesting Ground.
-
-
-        LOC_AGENDA_HORN_MOTHER_NAME: Mother of Many
-        LOC_AGENDA_HORN_MOTHER_DESCRIPTION: Respects civilizations with strong population growth and disapproves of stagnant ones.
-
-        LOC_DIPLO_MODIFIER_HORN_MOTHER_LIKES_GROWTH: Appreciates your growing population.
-        LOC_DIPLO_MODIFIER_HORN_MOTHER_HATES_STAGNATION: Disapproves of your stagnant population.
-
-        LOC_DIPLO_KUDO_LEADER_HORN_MOTHER_GROWTH: Your people multiply with admirable vigor.
-        LOC_DIPLO_WARNING_LEADER_HORN_MOTHER_STAGNATION: Your cities seem… barren. This concerns me.
-
-
-        LOC_IMPROVEMENT_NESTING_GROUND_NAME: Nesting Ground
-        LOC_IMPROVEMENT_NESTING_GROUND_DESCRIPTION: Sacred nesting grounds where the Herd lays and tends to their eggs. Provides +2 Housing and +1 Food. Gains +1 Food when adjacent to a Horn Mother, and +1 Culture when adjacent to a Herd Tree.
-
-        LOC_TRAIT_LEADER_GOOD_EGG_NAME: Good Egg
-        LOC_TRAIT_LEADER_GOOD_EGG_DESCRIPTION: +15% Growth in all cities. +20% Production toward land units before the Industrial Era.
-
-
-
-        <!-- ===================== -->
-        <!-- ONI MELEE LINE (EN)   -->
-        <!-- ===================== -->
-
-
+        <!-- ONI MELEE LINE -->
         <Row Tag="LOC_UNIT_ONI_MELEE_01_NAME" Language="en_US"><Text>Oni Novice</Text></Row>
-        <Row Tag="LOC_UNIT_ONI_MELEE_01_DESCRIPTION" Language="en_US">
-        <Text>A small group of young Oni trained for close combat. Their strength is raw, but their discipline is still forming.</Text></Row>
-
+        <Row Tag="LOC_UNIT_ONI_MELEE_01_DESCRIPTION" Language="en_US"><Text>A small group of young Oni trained for close combat. Their strength is raw, but their discipline is still forming.</Text></Row>
         <Row Tag="LOC_UNIT_ONI_MELEE_02_NAME" Language="en_US"><Text>Oni Warrior</Text></Row>
-        <Row Tag="LOC_UNIT_ONI_MELEE_02_DESCRIPTION" Language="en_US">
-        <Text>A disciplined group of Oni fighters, hardened by ritual combat and Herd tradition.</Text></Row>
-
+        <Row Tag="LOC_UNIT_ONI_MELEE_02_DESCRIPTION" Language="en_US"><Text>A disciplined group of Oni fighters, hardened by ritual combat and Herd tradition.</Text></Row>
         <Row Tag="LOC_UNIT_ONI_MELEE_03_NAME" Language="en_US"><Text>Oni Battalion</Text></Row>
-        <Row Tag="LOC_UNIT_ONI_MELEE_03_DESCRIPTION" Language="en_US">
-        <Text>A large and coordinated battalion of Oni, trained to fight as a unified mass of muscle and discipline.</Text></Row>
-
+        <Row Tag="LOC_UNIT_ONI_MELEE_03_DESCRIPTION" Language="en_US"><Text>A large and coordinated battalion of Oni, trained to fight as a unified mass of muscle and discipline.</Text></Row>
         <Row Tag="LOC_UNIT_ONI_MELEE_04_NAME" Language="en_US"><Text>Oni Cohort</Text></Row>
-        <Row Tag="LOC_UNIT_ONI_MELEE_04_DESCRIPTION" Language="en_US">
-        <Text>A seasoned cohort of Oni veterans, capable of overwhelming foes through sheer numbers and relentless pressure.</Text></Row>
-
+        <Row Tag="LOC_UNIT_ONI_MELEE_04_DESCRIPTION" Language="en_US"><Text>A seasoned cohort of Oni veterans, capable of overwhelming foes through sheer numbers and relentless pressure.</Text></Row>
         <Row Tag="LOC_UNIT_ONI_MELEE_05_NAME" Language="en_US"><Text>Oni Legion</Text></Row>
-        <Row Tag="LOC_UNIT_ONI_MELEE_05_DESCRIPTION" Language="en_US">
-        <Text>A massive legion of Oni, drilled to perfection and feared for their unstoppable advance.</Text></Row>
-
+        <Row Tag="LOC_UNIT_ONI_MELEE_05_DESCRIPTION" Language="en_US"><Text>A massive legion of Oni, drilled to perfection and feared for their unstoppable advance.</Text></Row>
         <Row Tag="LOC_UNIT_ONI_MELEE_06_NAME" Language="en_US"><Text>Oni Horde</Text></Row>
-        <Row Tag="LOC_UNIT_ONI_MELEE_06_DESCRIPTION" Language="en_US">
-        <Text>A vast horde of Oni warriors, their numbers and discipline replacing the machines other civilizations rely on.</Text></Row>
-
+        <Row Tag="LOC_UNIT_ONI_MELEE_06_DESCRIPTION" Language="en_US"><Text>A vast horde of Oni warriors, their numbers and discipline replacing the machines other civilizations rely on.</Text></Row>
         <Row Tag="LOC_UNIT_ONI_MELEE_07_NAME" Language="en_US"><Text>Oni Elite Horde</Text></Row>
-        <Row Tag="LOC_UNIT_ONI_MELEE_07_DESCRIPTION" Language="en_US">
-        <Text>An elite horde of battle-hardened Oni, capable of crushing steel and stone with terrifying unity.</Text></Row>
-
+        <Row Tag="LOC_UNIT_ONI_MELEE_07_DESCRIPTION" Language="en_US"><Text>An elite horde of battle-hardened Oni, capable of crushing steel and stone with terrifying unity.</Text></Row>
         <Row Tag="LOC_UNIT_ONI_MELEE_08_NAME" Language="en_US"><Text>Oni Ascendants</Text></Row>
-        <Row Tag="LOC_UNIT_ONI_MELEE_08_DESCRIPTION" Language="en_US">
-        <Text>The pinnacle of Oni martial evolution: a colossal, perfectly synchronized fighting force unmatched in raw physical might.</Text></Row>
+        <Row Tag="LOC_UNIT_ONI_MELEE_08_DESCRIPTION" Language="en_US"><Text>The pinnacle of Oni martial evolution: a colossal, perfectly synchronized fighting force unmatched in raw physical might.</Text></Row>
 
-
-
-        <!-- ===================== -->
-        <!-- ONI RANGED LINE (EN)  -->
-        <!-- ===================== -->
-
+        <!-- ONI RANGED LINE -->
         <Row Tag="LOC_UNIT_ONI_RANGED_01_NAME" Language="en_US"><Text>Oni Slinger</Text></Row>
-        <Row Tag="LOC_UNIT_ONI_RANGED_01_DESCRIPTION" Language="en_US">
-        <Text>Young Oni trained to hurl stones with surprising force. Crude but effective.</Text></Row>
-
+        <Row Tag="LOC_UNIT_ONI_RANGED_01_DESCRIPTION" Language="en_US"><Text>Young Oni trained to hurl stones with surprising force. Crude but effective.</Text></Row>
         <Row Tag="LOC_UNIT_ONI_RANGED_02_NAME" Language="en_US"><Text>Oni Archer</Text></Row>
-        <Row Tag="LOC_UNIT_ONI_RANGED_02_DESCRIPTION" Language="en_US">
-        <Text>Oni archers who combine brute strength with precision, firing heavy arrows capable of piercing armor.</Text></Row>
-
+        <Row Tag="LOC_UNIT_ONI_RANGED_02_DESCRIPTION" Language="en_US"><Text>Oni archers who combine brute strength with precision, firing heavy arrows capable of piercing armor.</Text></Row>
         <Row Tag="LOC_UNIT_ONI_RANGED_03_NAME" Language="en_US"><Text>Oni Crossbow</Text></Row>
-        <Row Tag="LOC_UNIT_ONI_RANGED_03_DESCRIPTION" Language="en_US">
-        <Text>Crossbow-wielding Oni who unleash powerful bolts with devastating impact.</Text></Row>
-
+        <Row Tag="LOC_UNIT_ONI_RANGED_03_DESCRIPTION" Language="en_US"><Text>Crossbow-wielding Oni who unleash powerful bolts with devastating impact.</Text></Row>
         <Row Tag="LOC_UNIT_ONI_RANGED_04_NAME" Language="en_US"><Text>Oni Marksman</Text></Row>
-        <Row Tag="LOC_UNIT_ONI_RANGED_04_DESCRIPTION" Language="en_US">
-        <Text>Elite Oni marksmen trained to fire in coordinated volleys, overwhelming enemies with sheer volume.</Text></Row>
-
+        <Row Tag="LOC_UNIT_ONI_RANGED_04_DESCRIPTION" Language="en_US"><Text>Elite Oni marksmen trained to fire in coordinated volleys, overwhelming enemies with sheer volume.</Text></Row>
         <Row Tag="LOC_UNIT_ONI_RANGED_05_NAME" Language="en_US"><Text>Oni Volley Corps</Text></Row>
-        <Row Tag="LOC_UNIT_ONI_RANGED_05_DESCRIPTION" Language="en_US">
-        <Text>A disciplined corps of Oni ranged fighters, replacing firearms with raw strength and perfected technique.</Text></Row>
-
+        <Row Tag="LOC_UNIT_ONI_RANGED_05_DESCRIPTION" Language="en_US"><Text>A disciplined corps of Oni ranged fighters, replacing firearms with raw strength and perfected technique.</Text></Row>
         <Row Tag="LOC_UNIT_ONI_RANGED_06_NAME" Language="en_US"><Text>Oni Volley Elite</Text></Row>
-        <Row Tag="LOC_UNIT_ONI_RANGED_06_DESCRIPTION" Language="en_US">
-        <Text>Elite Oni ranged units capable of unleashing devastating synchronized volleys.</Text></Row>
-
+        <Row Tag="LOC_UNIT_ONI_RANGED_06_DESCRIPTION" Language="en_US"><Text>Elite Oni ranged units capable of unleashing devastating synchronized volleys.</Text></Row>
         <Row Tag="LOC_UNIT_ONI_RANGED_07_NAME" Language="en_US"><Text>Oni Precision Corps</Text></Row>
-        <Row Tag="LOC_UNIT_ONI_RANGED_07_DESCRIPTION" Language="en_US">
-        <Text>A highly trained corps of Oni sharpshooters, their accuracy rivaling the machines of other civilizations.</Text></Row>
-
+        <Row Tag="LOC_UNIT_ONI_RANGED_07_DESCRIPTION" Language="en_US"><Text>A highly trained corps of Oni sharpshooters, their accuracy rivaling the machines of other civilizations.</Text></Row>
         <Row Tag="LOC_UNIT_ONI_RANGED_08_NAME" Language="en_US"><Text>Oni Precision Elite</Text></Row>
-        <Row Tag="LOC_UNIT_ONI_RANGED_08_DESCRIPTION" Language="en_US">
-        <Text>The ultimate Oni ranged formation, capable of annihilating targets with perfect coordination.</Text></Row>
+        <Row Tag="LOC_UNIT_ONI_RANGED_08_DESCRIPTION" Language="en_US"><Text>The ultimate Oni ranged formation, capable of annihilating targets with perfect coordination.</Text></Row>
 
-
-
-        <!-- ===================== -->
-        <!-- ONI HEAVY LINE (EN)   -->
-        <!-- ===================== -->
-
+        <!-- ONI HEAVY LINE -->
         <Row Tag="LOC_UNIT_ONI_HEAVY_01_NAME" Language="en_US"><Text>Oni Charger</Text></Row>
-        <Row Tag="LOC_UNIT_ONI_HEAVY_01_DESCRIPTION" Language="en_US">
-        <Text>Fast-moving Oni shock troops who break enemy lines with raw momentum.</Text></Row>
-
+        <Row Tag="LOC_UNIT_ONI_HEAVY_01_DESCRIPTION" Language="en_US"><Text>Fast-moving Oni shock troops who break enemy lines with raw momentum.</Text></Row>
         <Row Tag="LOC_UNIT_ONI_HEAVY_02_NAME" Language="en_US"><Text>Oni Rider</Text></Row>
-        <Row Tag="LOC_UNIT_ONI_HEAVY_02_DESCRIPTION" Language="en_US">
-        <Text>Mounted Oni fighters who strike with speed and overwhelming force.</Text></Row>
-
+        <Row Tag="LOC_UNIT_ONI_HEAVY_02_DESCRIPTION" Language="en_US"><Text>Mounted Oni fighters who strike with speed and overwhelming force.</Text></Row>
         <Row Tag="LOC_UNIT_ONI_HEAVY_03_NAME" Language="en_US"><Text>Oni Vanguard</Text></Row>
-        <Row Tag="LOC_UNIT_ONI_HEAVY_03_DESCRIPTION" Language="en_US">
-        <Text>Heavily trained Oni shock troops who spearhead assaults with brutal efficiency.</Text></Row>
-
+        <Row Tag="LOC_UNIT_ONI_HEAVY_03_DESCRIPTION" Language="en_US"><Text>Heavily trained Oni shock troops who spearhead assaults with brutal efficiency.</Text></Row>
         <Row Tag="LOC_UNIT_ONI_HEAVY_04_NAME" Language="en_US"><Text>Oni Breaker</Text></Row>
-        <Row Tag="LOC_UNIT_ONI_HEAVY_04_DESCRIPTION" Language="en_US">
-        <Text>Elite Oni shock units capable of smashing fortified positions through sheer physical might.</Text></Row>
-
+        <Row Tag="LOC_UNIT_ONI_HEAVY_04_DESCRIPTION" Language="en_US"><Text>Elite Oni shock units capable of smashing fortified positions through sheer physical might.</Text></Row>
         <Row Tag="LOC_UNIT_ONI_HEAVY_05_NAME" Language="en_US"><Text>Oni Iron Vanguard</Text></Row>
-        <Row Tag="LOC_UNIT_ONI_HEAVY_05_DESCRIPTION" Language="en_US">
-        <Text>A massive formation of Oni heavy troops, their discipline rivaling the armored divisions of other civilizations.</Text></Row>
-
+        <Row Tag="LOC_UNIT_ONI_HEAVY_05_DESCRIPTION" Language="en_US"><Text>A massive formation of Oni heavy troops, their discipline rivaling the armored divisions of other civilizations.</Text></Row>
         <Row Tag="LOC_UNIT_ONI_HEAVY_06_NAME" Language="en_US"><Text>Oni Iron Horde</Text></Row>
-        <Row Tag="LOC_UNIT_ONI_HEAVY_06_DESCRIPTION" Language="en_US">
-        <Text>A colossal horde of Oni shock warriors, replacing tanks with living muscle and unstoppable momentum.</Text></Row>
-
+        <Row Tag="LOC_UNIT_ONI_HEAVY_06_DESCRIPTION" Language="en_US"><Text>A colossal horde of Oni shock warriors, replacing tanks with living muscle and unstoppable momentum.</Text></Row>
         <Row Tag="LOC_UNIT_ONI_HEAVY_07_NAME" Language="en_US"><Text>Oni Thunder Corps</Text></Row>
-        <Row Tag="LOC_UNIT_ONI_HEAVY_07_DESCRIPTION" Language="en_US">
-        <Text>A thunderous corps of Oni heavy fighters whose charges shake the battlefield.</Text></Row>
-
+        <Row Tag="LOC_UNIT_ONI_HEAVY_07_DESCRIPTION" Language="en_US"><Text>A thunderous corps of Oni heavy fighters whose charges shake the battlefield.</Text></Row>
         <Row Tag="LOC_UNIT_ONI_HEAVY_08_NAME" Language="en_US"><Text>Oni Thunder Elite</Text></Row>
-        <Row Tag="LOC_UNIT_ONI_HEAVY_08_DESCRIPTION" Language="en_US">
-        <Text>The ultimate Oni heavy formation, capable of crushing even mechanized armies through sheer force.</Text></Row>
-
-
+        <Row Tag="LOC_UNIT_ONI_HEAVY_08_DESCRIPTION" Language="en_US"><Text>The ultimate Oni heavy formation, capable of crushing even mechanized armies through sheer force.</Text></Row>
 
     </LocalizedText>
 </GameData>

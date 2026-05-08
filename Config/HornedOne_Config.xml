@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GameData>
-
-    <!-- ========================================================= -->
-    <!--  CONFIGURATION FRONTEND : THE HORNED ONE                  -->
-    <!--  Ce fichier enregistre la civilisation dans la liste       -->
-    <!--  des joueurs disponibles au moment de créer une partie.   -->
-    <!-- ========================================================= -->
+<GameInfo>
 
     <Players>
-        <Row CivilizationType="CIVILIZATION_HORNED_ONE"
+        <Row Domain="Players:Expansion2_Players"
+             CivilizationType="CIVILIZATION_HORNED_ONE"
              LeaderType="LEADER_HORN_MOTHER"
-             Domain="Players:Expansion2_Players"
              CivilizationName="LOC_CIVILIZATION_HORNED_ONE_NAME"
+             CivilizationIcon="ICON_CIVILIZATION_HORNED_ONE"
              LeaderName="LOC_LEADER_HORN_MOTHER_NAME"
+             LeaderIcon="ICON_LEADER_HORN_MOTHER"
              CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_HORNED_ONE_NAME"
              CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_HORNED_ONE_DESCRIPTION"
+             CivilizationAbilityIcon="ICON_CIVILIZATION_HORNED_ONE"
              LeaderAbilityName="LOC_TRAIT_LEADER_GOOD_EGG_NAME"
              LeaderAbilityDescription="LOC_TRAIT_LEADER_GOOD_EGG_DESCRIPTION"
-             Portrait="ICON_LEADER_HORN_MOTHER"
-             PortraitBackground="ICON_LEADER_HORN_MOTHER_BACKGROUND"
-             OverrideName="0"/>
+             LeaderAbilityIcon="ICON_LEADER_HORN_MOTHER"/>
     </Players>
 
-</GameData>
+    <PlayerItems>
+        <Row Domain="Players:Expansion2_Players"
+             CivilizationType="CIVILIZATION_HORNED_ONE"
+             LeaderType="LEADER_HORN_MOTHER"
+             Type="BUILDING_HERD_TREE"
+             Icon="ICON_BUILDING_HERD_TREE"
+             Name="LOC_BUILDING_HERD_TREE_NAME"
+             Description="LOC_BUILDING_HERD_TREE_DESCRIPTION"
+             SortIndex="10"/>
+        <Row Domain="Players:Expansion2_Players"
+             CivilizationType="CIVILIZATION_HORNED_ONE"
+             LeaderType="LEADER_HORN_MOTHER"
+             Type="IMPROVEMENT_NESTING_GROUND"
+             Icon="ICON_IMPROVEMENT_NESTING_GROUND"
+             Name="LOC_IMPROVEMENT_NESTING_GROUND_NAME"
+             Description="LOC_IMPROVEMENT_NESTING_GROUND_DESCRIPTION"
+             SortIndex="20"/>
+    </PlayerItems>
+
+</GameInfo>

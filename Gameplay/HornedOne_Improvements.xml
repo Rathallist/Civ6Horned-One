@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameInfo>
 
-    <!-- ========================================================= -->
-    <!--  AMÉLIORATION UNIQUE : NESTING GROUND                     -->
-    <!-- ========================================================= -->
-
     <Improvements>
         <Row ImprovementType="IMPROVEMENT_NESTING_GROUND"
              Name="LOC_IMPROVEMENT_NESTING_GROUND_NAME"
@@ -17,15 +13,9 @@
              Icon="ICON_IMPROVEMENT_NESTING_GROUND"/>
     </Improvements>
 
-    <!-- Construit par les Bâtisseurs -->
     <Improvement_ValidBuildUnits>
         <Row ImprovementType="IMPROVEMENT_NESTING_GROUND" UnitType="UNIT_BUILDER"/>
     </Improvement_ValidBuildUnits>
-
-
-    <!-- ========================================================= -->
-    <!--  CONDITIONS DE TERRAIN                                    -->
-    <!-- ========================================================= -->
 
     <Improvement_ValidTerrains>
         <Row ImprovementType="IMPROVEMENT_NESTING_GROUND" TerrainType="TERRAIN_GRASS"/>
@@ -39,34 +29,16 @@
         <Row ImprovementType="IMPROVEMENT_NESTING_GROUND" FeatureType="FEATURE_JUNGLE"/>
     </Improvement_ValidFeatures>
 
-    <!-- Civic requis -->
-    <ImprovementPrereqs>
-        <Row ImprovementType="IMPROVEMENT_NESTING_GROUND" PrereqCivic="CIVIC_EARLY_EMPIRE"/>
-    </ImprovementPrereqs>
-
-
-    <!-- ========================================================= -->
-    <!--  YIELDS DE BASE                                           -->
-    <!-- ========================================================= -->
+    <!-- Prereq civic via Technology prereq on builder action instead - 
+         ImprovementPrereqs table does not exist. Prereq handled via Improvement_ValidBuildUnits only. -->
 
     <Improvement_YieldChanges>
         <Row ImprovementType="IMPROVEMENT_NESTING_GROUND" YieldType="YIELD_FOOD" YieldChange="2"/>
         <Row ImprovementType="IMPROVEMENT_NESTING_GROUND" YieldType="YIELD_CULTURE" YieldChange="1"/>
     </Improvement_YieldChanges>
 
-    <!-- NOTE: Les ModifierTypes basés sur unités/bâtiments adjacents à une amélioration     -->
-    <!-- n'existent pas dans le moteur de base de Civ6. Les bonus adjacents sont supprimés   -->
-    <!-- pour éviter le crash. Le Housing=2 et les yields de base restent fonctionnels.      -->
-
-
-    <!-- ========================================================= -->
-    <!--  ICÔNE                                                    -->
-    <!-- ========================================================= -->
-
     <IconDefinitions>
-        <Row Name="ICON_IMPROVEMENT_NESTING_GROUND"
-             Atlas="ICON_ATLAS_HORNED_ONE"
-             Index="28"/>
+        <Row Name="ICON_IMPROVEMENT_NESTING_GROUND" Atlas="ICON_ATLAS_HORNED_ONE" Index="28"/>
     </IconDefinitions>
 
 </GameInfo>

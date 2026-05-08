@@ -1,35 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameInfo>
 
-    <!-- ========================================================= -->
-    <!--  DISABLE ALL MECHANIZED / MODERN UNITS FOR HORNED ONE     -->
-    <!-- ========================================================= -->
-
-    <!-- NOTE: Table corrigée de Civilization_UnitClassOverrides → CivilizationUnitClassOverrides -->
-    <CivilizationUnitClassOverrides>
-        <!-- LAND MECHANIZED -->
+    <!-- Disable mechanized/modern units for Horned One - uses XP2 table -->
+    <Civilization_UnitClassOverrides>
         <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitClassType="UNITCLASS_TANK" UnitType="NONE"/>
         <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitClassType="UNITCLASS_MODERN_ARMOR" UnitType="NONE"/>
         <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitClassType="UNITCLASS_MECHANIZED_INFANTRY" UnitType="NONE"/>
         <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitClassType="UNITCLASS_GIANT_DEATH_ROBOT" UnitType="NONE"/>
-
-        <!-- ARTILLERY -->
         <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitClassType="UNITCLASS_ARTILLERY" UnitType="NONE"/>
         <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitClassType="UNITCLASS_ROCKET_ARTILLERY" UnitType="NONE"/>
-
-        <!-- AIR UNITS -->
         <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitClassType="UNITCLASS_FIGHTER" UnitType="NONE"/>
         <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitClassType="UNITCLASS_BOMBER" UnitType="NONE"/>
         <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitClassType="UNITCLASS_HELICOPTER" UnitType="NONE"/>
-
-        <!-- NAVAL MODERN -->
         <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitClassType="UNITCLASS_NUCLEAR_SUBMARINE" UnitType="NONE"/>
         <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitClassType="UNITCLASS_MISSILE_CRUISER" UnitType="NONE"/>
-
-        <!-- MISSILES -->
         <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitClassType="UNITCLASS_GUIDED_MISSILE" UnitType="NONE"/>
         <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitClassType="UNITCLASS_NUCLEAR_DEVICE" UnitType="NONE"/>
         <Row CivilizationType="CIVILIZATION_HORNED_ONE" UnitClassType="UNITCLASS_THERMONUCLEAR_DEVICE" UnitType="NONE"/>
-    </CivilizationUnitClassOverrides>
+    </Civilization_UnitClassOverrides>
 
 </GameInfo>

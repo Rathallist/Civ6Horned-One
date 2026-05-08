@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameInfo>
 
-    <!-- ========================================================= -->
-    <!--  BÂTIMENT UNIQUE : HERD TREE                              -->
-    <!-- ========================================================= -->
-
     <Buildings>
         <Row BuildingType="BUILDING_HERD_TREE"
              Name="LOC_BUILDING_HERD_TREE_NAME"
@@ -15,36 +11,23 @@
              Maintenance="3"
              Housing="4"
              CitizenSlots="1"
-             GreatWorkSlotType="GREATWORKSLOT_WRITING"
              GreatWorkCount="2"
              MaxPlayerCityInstances="1"
              AdvisorType="ADVISOR_CULTURE"/>
     </Buildings>
 
-    <!-- Remplace l'Amphithéâtre -->
     <BuildingReplaces>
         <Row CivUniqueBuildingType="BUILDING_HERD_TREE"
              ReplacesBuildingType="BUILDING_AMPHITHEATER"/>
     </BuildingReplaces>
-
-
-    <!-- ========================================================= -->
-    <!--  YIELDS DE BASE                                           -->
-    <!-- ========================================================= -->
 
     <Building_YieldChanges>
         <Row BuildingType="BUILDING_HERD_TREE" YieldType="YIELD_CULTURE" YieldChange="2"/>
         <Row BuildingType="BUILDING_HERD_TREE" YieldType="YIELD_FOOD" YieldChange="1"/>
     </Building_YieldChanges>
 
-
-    <!-- ========================================================= -->
-    <!--  BONUS : CULTURE PAR POPULATION                           -->
-    <!-- ========================================================= -->
-
     <BuildingModifiers>
-        <Row BuildingType="BUILDING_HERD_TREE"
-             ModifierId="HERD_TREE_CULTURE_PER_POP"/>
+        <Row BuildingType="BUILDING_HERD_TREE" ModifierId="HERD_TREE_CULTURE_PER_POP"/>
     </BuildingModifiers>
 
     <Modifiers>
@@ -57,15 +40,8 @@
         <Row ModifierId="HERD_TREE_CULTURE_PER_POP" Name="Amount" Value="0.33"/>
     </ModifierArguments>
 
-
-    <!-- ========================================================= -->
-    <!--  ICÔNE                                                    -->
-    <!-- ========================================================= -->
-
     <IconDefinitions>
-        <Row Name="ICON_BUILDING_HERD_TREE"
-             Atlas="ICON_ATLAS_HORNED_ONE"
-             Index="27"/>
+        <Row Name="ICON_BUILDING_HERD_TREE" Atlas="ICON_ATLAS_HORNED_ONE" Index="27"/>
     </IconDefinitions>
 
 </GameInfo>

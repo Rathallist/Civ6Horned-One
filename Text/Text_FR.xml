@@ -45,11 +45,11 @@
             <Text>Les Cornus prospèrent grâce à l’unité, au plaisir partagé et à la force de leur communauté. Leur système de castes assure l’harmonie et la cohésion du Herd.</Text>
         </Row>
 
-        <Row Tag="LOC_TRAIT_LEADER_HORN_MOTHER_NAME" Language="fr_FR">
+        <Row Tag="LOC_TRAIT_LEADER_HORN_GOOD_EGG_NAME" Language="fr_FR">
             <Text>Good Egg</Text>
         </Row>
 
-        <Row Tag="LOC_TRAIT_LEADER_HORN_MOTHER_DESCRIPTION" Language="fr_FR">
+        <Row Tag="LOC_TRAIT_LEADER_HORN_GOOD_EGG_DESCRIPTION" Language="fr_FR">
             <Text>La Mère‑Corne apporte prospérité et bon augure au Herd. Les villes croissent plus vite, et les MuscleHorns répondent à son appel avec une dévotion totale, augmentant la Production des unités terrestres d’avant l’Ère Industrielle.</Text>
         </Row>
 
